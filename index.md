@@ -12,5 +12,5 @@ I am a doctoral researcher at the Department of Accountancy, Finance and Insuran
 
 # Books
 Adjusted books from professor dr [Katrien Antonio](https://katrienantonio.github.io/):
-* [Introduction to R](./intro-R-book)
+* [Introduction to R](./intro-R-book_RawFiles)
 * [Loss Model](./Loss-Models)
