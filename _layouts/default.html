@@ -19,10 +19,16 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.show_downloads %}
+        <a href="./" class="btn">Home</a>
         <a href="./about.html" class="btn">About</a>
         <a href="./cv.html" class="btn">CV</a>
         <a href="https://www.researchgate.net/profile/Bavo-De-Cock" class="btn">Publications</a>
       {% endif %}
+      <h3>
+        <figure>
+          <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" style="width:100%">
+        </figure>
+      </h3>
     </header>
 
     <main id="content" class="main-content" role="main">
