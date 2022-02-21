@@ -7,5 +7,5 @@ description: Personal website (test version)
 [Github page](github.com/BavoDC)
 
 # Books
-[Introduction to R](bavo.dc.github.io/intro-R-book)
-[Loss Model](bavo.dc.github.io/Loss-Models)
+* [Introduction to R](bavo.dc.github.io/intro-R-book)
+* [Loss Model](bavo.dc.github.io/Loss-Models)
