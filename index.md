@@ -3,7 +3,7 @@ layout: default
 title: Bavo DC Campo
 description: Personal website (test version)
 ---
-I am a doctoral researcher at the Department of Accountancy, Finance and Insurance at the Faculty of Economics and Business at KU Leuven, under the supervision of professor dr [Katrien Antonio](https://katrienantonio.github.io/). My research focuses on the development and evaluation of predictive modeling techniques within actuarial science. In my research, I examine both statistical and machine learning methods. Further, I also examine how fraud detection models can be built using social network features. Here, I focus on both the methodological and practical part.
+I am a doctoral researcher at the Department of Accountancy, Finance and Insurance at the Faculty of Economics and Business at KU Leuven, under the supervision of professor dr [Katrien Antonio](https://katrienantonio.github.io/). My research focuses on the development and evaluation of predictive modeling techniques within actuarial science. In my research, I assess the performance of both statistical and machine learning methods. Another part of my research focuses on the development of fraud detection models using social network features. Here, I examine both the methodological and practical part.
 
 # Personal links
 * [Github page](https://github.com/BavoDC)
