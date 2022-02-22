@@ -34,5 +34,6 @@ Below is a short overview of my work experience. You can find a more detailed ov
 {:.mbtablestyle}
 
 ## Projects
+More information will be added soon.
 
 [back](./)
