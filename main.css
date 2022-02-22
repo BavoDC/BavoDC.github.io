@@ -46,6 +46,6 @@ ul.posts li {
         border-collapse: collapse;
 
    > table, td, th {
-        border: 1px solid #000000;
+        border: 0;
         }
 }
