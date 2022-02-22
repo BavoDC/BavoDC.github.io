@@ -31,7 +31,7 @@ Below is a short overview of my work experience. You can find a more detailed ov
 | Mar 2016 - Apr 2019| **Voluntary research associate** |
 |		| Department of Managerial Economics, Strategy and Innovation|
 |		| Faculty of Economics and Business|
-
+{:.mbtablestyle}
 
 ## Projects
 

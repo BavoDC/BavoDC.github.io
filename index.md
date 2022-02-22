@@ -8,6 +8,7 @@ I am a doctoral researcher at the Department of Accountancy, Finance and Insuran
 # Personal links
 * [Github page](https://github.com/BavoDC)
 * [Researchgate](https://www.researchgate.net/profile/Bavo-De-Cock)
+* [KU Leuven](https://www.kuleuven.be/wieiswie/nl/person/00095171)
 * [Linkedin](https://be.linkedin.com/in/bavo-de-cock-campo-584087b6)
 
 # Books
