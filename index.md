@@ -7,6 +7,17 @@ I am a doctoral researcher at the Department of Accountancy, Finance and Insuran
 
 A detailed overview of my work experience and skills is given in the [About](./about.html) tab. For a more formal overview, click [here](./cv.html). If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171).
 
+# Education
+- PhD in Business Economics, Present
+	- KU Leuven, Belgium
+- MS in Statistics, 2019
+	- KU Leuven, Belgium
+	- Combined with full-time job as a researcher at KU Leuven	
+- MSc in Psychology, 2014
+	- KU Leuven, Belgium
+- BSc in Psychology, 2012
+	- KU Leuven, Belgium
+
 # Personal links
 * [Github page](https://github.com/BavoDC)
 * [Researchgate](https://www.researchgate.net/profile/Bavo-De-Cock)

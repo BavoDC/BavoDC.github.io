@@ -5,17 +5,6 @@ description: A brief introduction to Bavo DC Campo
 ---
 # About me
 
-## Education
-- PhD in Business Economics, Present
-	- KU Leuven, Belgium
-- MS in Statistics, 2019
-	- KU Leuven, Belgium
-	- Combined with full-time job as a researcher at KU Leuven	
-- MSc in Psychology, 2014
-	- KU Leuven, Belgium
-- BSc in Psychology, 2012
-	- KU Leuven, Belgium
-
 ## Work experience
 Below is a short overview of my work experience. You can find a more detailed overview over [here](./cv.html).
 
