@@ -5,7 +5,7 @@ description: Personal website (test version)
 ---
 I am a doctoral researcher at the Department of Accountancy, Finance and Insurance at the Faculty of Economics and Business at KU Leuven, under the supervision of professor dr [Katrien Antonio](https://katrienantonio.github.io/). My research focuses on the development and evaluation of predictive modeling techniques within actuarial science. In my research, I assess the performance of both statistical and machine learning methods. Another part of my research focuses on the development of fraud detection models using social network features. Here, I examine both the methodological and practical part.
 
-A detailed overview of my work experience and skills is given in the [About](./about.html) tab. For a more formal overview, click [here](./cv.html). If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171).
+A detailed overview of my work experience and skills is given in the [CV](./cv.html) tab. If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171).
 
 # Education
 - PhD in Business Economics, Present
