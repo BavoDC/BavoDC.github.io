@@ -10,7 +10,7 @@ A detailed overview of my work experience and skills is given in the [CV](./cv.h
 # Education
 - PhD in Business Economics, Present
 	- KU Leuven, Belgium
-- MS in Statistics, 2019
+- MSc in Statistics, 2019
 	- KU Leuven, Belgium
 	- Combined with full-time job as a researcher at KU Leuven	
 - MSc in Psychology, 2014
