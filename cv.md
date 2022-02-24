@@ -7,7 +7,6 @@ description: A brief overview of my skills and experience
 CV will be added soon.
 
 # Work experience
-Below is a short overview of my work experience.
 
 | Oct 2019 - Present| **Doctoral researcher**|
 |               | Department of Accountancy, Finance and Insurance|
