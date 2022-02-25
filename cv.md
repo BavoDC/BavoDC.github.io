@@ -1,10 +1,10 @@
 ---
 layout: default
 title: CV
-description: A brief overview of my skills and experience
+description: A brief overview of my skills and work experience
 ---
 # CV
-CV will be added soon.
+Click [here](./CV/CurriculumVitaeCampoBavoGithub2022.pdf) if you want a detailed overview of my work experience and professional skills.
 
 # Work experience
 
