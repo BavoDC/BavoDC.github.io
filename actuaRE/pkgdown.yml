@@ -1,0 +1,10 @@
+pandoc: 2.14.2
+pkgdown: 2.0.5
+pkgdown_sha: ~
+articles:
+  actuaRE: actuaRE.html
+last_built: 2022-07-04T08:37Z
+urls:
+  reference: https://bavodc.github.io/actuaRE/reference
+  article: https://bavodc.github.io/actuaRE/articles
+
