@@ -4,4 +4,4 @@ plugins:
 title: [Bavo (De Cock) Campo]
 description: [Hi there! Welcome to my page.]
 show_downloads: true
-show_social_links: true
+exclude: [Manual.txt]

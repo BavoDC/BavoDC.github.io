@@ -1,0 +1,6 @@
+.git/
+.jekyll-cache/
+Manual.txt
+Gemfile
+Gemfile.lock
+.Rhistory
