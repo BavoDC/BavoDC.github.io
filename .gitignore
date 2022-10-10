@@ -1,6 +1,7 @@
 .git/
 .jekyll-cache/
 Manual.txt
+todo.txt
 Gemfile
 Gemfile.lock
 .Rhistory

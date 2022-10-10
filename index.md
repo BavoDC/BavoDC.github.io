@@ -9,15 +9,18 @@ I am a doctoral researcher at the Department of Accountancy, Finance and Insuran
 A detailed overview of my work experience and skills is given in the [CV](./cv.html) tab. If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171).
 
 # Education
-- PhD in Business Economics, Present
-	- KU Leuven, Belgium
-- MSc in Statistics, 2019
-	- KU Leuven, Belgium
-	- Combined with full-time job as a researcher at KU Leuven	
-- MSc in Psychology, 2014
-	- KU Leuven, Belgium
-- BSc in Psychology, 2012
-	- KU Leuven, Belgium
+<i class="fa fa-graduation-cap fa" style="color:black"></i> PhD in Business Economics, Present
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size="2" style="color:#00000099"> KU Leuven, Belgium</font> 
+
+<i class="fa fa-graduation-cap fa" style="color:black"></i> MSc in Statistics, 2019
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size="2" style="color:#00000099"> KU Leuven, Belgium</font> 
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size="2" style="color:#00000099"> Combined with full-time job as a researcher at KU Leuven	</font> 
+  
+<i class="fa fa-graduation-cap fa" style="color:black"></i> MSc in Psychology, 2014
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size="2" style="color:#00000099"> KU Leuven, Belgium</font> 
+  
+<i class="fa fa-graduation-cap fa" style="color:black"></i> BSc in Psychology, 2012
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size="2" style="color:#00000099"> KU Leuven, Belgium</font> 
 
 # Personal links
 * [Github page](https://github.com/BavoDC)
