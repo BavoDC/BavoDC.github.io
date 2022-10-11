@@ -19,7 +19,7 @@ Click [here](./CV/CurriculumVitaeCampoBavoGithub2022.pdf) if you want a detailed
     </tr>
     <tr>
       <td style="border:0">
-      <a href="https://feb.kuleuven.be/eng/home"><img src="/img/KULFEB.png" width="110px" height="56px"/></a>
+      <a href="https://feb.kuleuven.be/eng/home"><img src="/img/KULFEBAdj.png" width="110px" height="56px"/></a>
       </td>
       <td style="border:0">
       Department of Accountancy, Finance and Insurance<br>
@@ -55,7 +55,7 @@ Click [here](./CV/CurriculumVitaeCampoBavoGithub2022.pdf) if you want a detailed
     </tr>
     <tr>
       <td style="border:0">
-      <a href="https://feb.kuleuven.be/eng/home"><img src="/img/KULFEB.png" width="110px" height="56px"/></a>
+      <a href="https://feb.kuleuven.be/eng/home"><img src="/img/KULFEBAdj.png" width="110px" height="56px"/></a>
       </td>
       <td style="border:0">
       Department of Managerial Economics, Strategy and Innovation<br>
