@@ -3,11 +3,11 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"../../../AppData/Local/Temp/jekyll-remote-theme-20221010-20548-mdcwi6/_sass/cayman.scss",
-		"../../../AppData/Local/Temp/jekyll-remote-theme-20221010-20548-mdcwi6/_sass/jekyll-theme-cayman.scss",
-		"../../../AppData/Local/Temp/jekyll-remote-theme-20221010-20548-mdcwi6/_sass/normalize.scss",
-		"../../../AppData/Local/Temp/jekyll-remote-theme-20221010-20548-mdcwi6/_sass/rouge-github.scss",
-		"../../../AppData/Local/Temp/jekyll-remote-theme-20221010-20548-mdcwi6/_sass/variables.scss"
+		"../../../AppData/Local/Temp/jekyll-remote-theme-20221011-19396-xrzibd/_sass/cayman.scss",
+		"../../../AppData/Local/Temp/jekyll-remote-theme-20221011-19396-xrzibd/_sass/jekyll-theme-cayman.scss",
+		"../../../AppData/Local/Temp/jekyll-remote-theme-20221011-19396-xrzibd/_sass/normalize.scss",
+		"../../../AppData/Local/Temp/jekyll-remote-theme-20221011-19396-xrzibd/_sass/rouge-github.scss",
+		"../../../AppData/Local/Temp/jekyll-remote-theme-20221011-19396-xrzibd/_sass/variables.scss"
 	],
 	"sourcesContent": [
 		"@import \"cayman\";\n.mbtablestyle {\n   border-collapse: collapse;\n   > table, td, th {\n        border: 1px solid white;\n        }\n}\n",
