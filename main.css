@@ -53,8 +53,4 @@ ul.posts li {
   /* padding: 10px; */
 }
 
-@media screen and (max-width: 380px) {
-  .photome {
-    display: none;
-  }
-}
+span.mobileonly { display: none; }
