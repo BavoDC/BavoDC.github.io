@@ -3,8 +3,7 @@ layout: default
 title: About
 description: A brief introduction to Bavo DC Campo
 ---
-# About me
-Hi there, thank you for visiting my page! I am a statistician and a data scientist, who tries to combine the best of two worlds. I strongly believe that a combination of statistics and data science allows us to gain more insight in the data at hand and results in better performing models with a higher predictive accuracy. Some may know me as Bavo De Cock. I recently changed and publish using the surname Campo to honor my mother who was also active in academia. She, together with my father, still serve as a big inspiration to me.
+Thank you for visiting my page! I am a statistician and a data scientist, who tries to combine the best of two worlds. I strongly believe that a combination of statistics and data science allows us to gain more insight in the data at hand and results in better performing models with a higher predictive accuracy. Some may know me as Bavo De Cock. I recently changed and publish using the surname Campo to honor my mother who was also active in academia. She, together with my father, still serve as a big inspiration to me.
 
 I originally started working as a biostatistical researcher in the International Ovarian Tumor Analysis ([IOTA](https://www.iotagroup.org/)) group. I combined this full-time job with a MSc in Statistics. This allowed me to directly apply the concepts that I learned to the research I was working on at the time. Here I discovered my passion for performing research, programming and mathematics. I am forever grateful to all members of the IOTA team. They provided me with a sound and solid basis of statistical methodology and research.
 
