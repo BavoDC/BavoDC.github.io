@@ -371,4 +371,8 @@ a:hover { text-decoration: underline; }
 
 .mbtablestyle > table, .mbtablestyle td, .mbtablestyle th { border: 1px solid white; }
 
+#photome { width: 15%; float: left; }
+
+@media (max-width: 350px) { #photome { width: 30%; } }
+
 /*# sourceMappingURL=style.css.map */

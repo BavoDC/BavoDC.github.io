@@ -53,8 +53,13 @@ ul.posts li {
   /* padding: 10px; */
 }
 
-@media screen and (max-width: 350px){
+#photome {
+  width: 15%;
+}
+
+
+@media (max-width: 350px){
   #photome {
-    display: none;
+    width: 30%;
   }
 }
