@@ -373,6 +373,6 @@ a:hover { text-decoration: underline; }
 
 #photome { width: 15%; float: left; }
 
-@media (max-width: 350px) { #photome { width: 30%; } }
+@media (max-width: 600px) { #photome { width: 30%; } }
 
 /*# sourceMappingURL=style.css.map */
