@@ -375,4 +375,10 @@ a:hover { text-decoration: underline; }
 
 @media (max-width: 600px) { #photome { width: 30%; } }
 
+.fa.fa-linkedin:hover { transform: scale(1.2); }
+
+.fa.fa-envelope:hover { transform: scale(1.2); }
+
+.fa.fa-github:hover { transform: scale(1.2); }
+
 /*# sourceMappingURL=style.css.map */

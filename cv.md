@@ -37,7 +37,7 @@ Click [here](./CV/CurriculumVitaeCampoBavoGithub2022.pdf) if you want a detailed
     </tr>
     <tr>
       <td style="border:0">
-      <a href="https://med.kuleuven.be/en"><img src="/img/KULMedicine.png" width="115px" height="50px"/></a>
+      <a href="https://med.kuleuven.be/en"><img src="/img/KULMedicineAdj.png" width="115px" height="50px"/></a>
       </td>
       <td style="border:0">
       Department of Development and regeneration<br>
@@ -65,10 +65,6 @@ Click [here](./CV/CurriculumVitaeCampoBavoGithub2022.pdf) if you want a detailed
     </tr>
   </tbody>
 </table>
-
-
-
-
 
 
 [//]: <>

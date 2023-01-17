@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-description: A brief introduction to Bavo DC Campo
+description: A brief introduction to Bavo D.C. Campo
 ---
 Thank you for visiting my page! I am a statistician and a data scientist, who tries to combine the best of two worlds. I strongly believe that a combination of statistics and data science allows us to gain more insight in the data at hand and results in better performing models with a higher predictive accuracy. Some may know me as Bavo De Cock. I recently changed and publish using the surname Campo to honor my mother who was also active in academia. She, together with my father, still serve as a big inspiration to me.
 
