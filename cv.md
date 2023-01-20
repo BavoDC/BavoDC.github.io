@@ -7,6 +7,7 @@ description: A brief overview of my skills and work experience
 Click [here](./CV/CurriculumVitaeCampoBavoGithub2022.pdf) if you want a detailed overview of my work experience and professional skills.
 
 # Work experience
+*A more detailed list of my projects and my roles herein will appear soon.*
 <table style="text-align: left; width: 100%;border:0">
   <tbody>
     <tr>
