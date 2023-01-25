@@ -4,14 +4,13 @@ title: Bavo D.C. Campo
 show_social_links: true
 # description: Personal website
 ---
-I am a Data Scientist and Statistician, who tries to combine the best of two worlds. I have over 7 years of experience and my area of expertise lies in the construction and validation of predictive models. I also have experience in other research areas, such as clustering and assessing the agreement or reliability of repeated measurements. Further, I am proficient in and have a passion for programming (especially in R). I love to immerse myself in new research projects, which require me to solve complex problems and to analyze the data thoroughly. Tackling new, unfamiliar challenges is something I look forward to as it allows me to grow and develop new knowledge and new skills.
+I am a data scientist and a statistician, who tries to combine the best of two worlds. I have over 7 years of experience and my area of expertise lies in the construction and validation of predictive models. I also have experience in other research areas, such as clustering and assessing the agreement or reliability of repeated measurements. Further, I am proficient in and have a passion for programming (especially in R). I love to immerse myself in new research projects, which require me to solve complex problems and to analyze the data thoroughly. Tackling new, unfamiliar challenges is something I look forward to as it allows me to grow and develop new knowledge and new skills.
 
 Currently I am doing my PhD in Actuarial Science at the KU Leuven, under the supervision of professor dr [Katrien Antonio](https://katrienantonio.github.io/){:target="_blank"}. My research focuses on the development and evaluation of predictive modeling techniques within actuarial science. In my research, I assess the performance of both statistical and machine learning methods. Another part of my research focuses on the development of fraud detection models using social network features. Here, I examine both the methodological and practical part.
 
 
-# Working experience
-A detailed overview of my work experience and skills is given in the [CV](./cv.html) tab. If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}.
-
+# Work experience
+A detailed overview of my work experience and skills is given in my CV, which you can access via this [link](./CV/CurriculumVitaeCampoBavoGithub20230124.pdf). If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}.
 
 <table style="text-align: left; width: 100%;border:0">
   <tbody>
@@ -95,4 +94,4 @@ A detailed overview of my work experience and skills is given in the [CV](./cv.h
 # Books
 Over the years, I have acquired a substantial amount of knowledge on programming and data analysis. Just as the professors, everyone at stackoverflow and countless others, I want to transfer this accumulated knowledge to help others. Hereto, I helped rewrite and adjust some of the books of professor dr [Katrien Antonio](https://katrienantonio.github.io/){:target="_blank"}:
 * [Introduction to R](./intro-R-book_RawFiles){:target="_blank"}
-* [Loss Model](./Loss-Models){:target="_blank"}
+* [Loss Models](./Loss-Models){:target="_blank"}

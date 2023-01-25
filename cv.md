@@ -4,7 +4,11 @@ title: CV
 description: A brief overview of my skills and work experience
 ---
 # CV
-Click [here](./CV/CurriculumVitaeCampoBavoGithub2022.pdf) if you want a detailed overview of my work experience and professional skills.
+Click [here](./CV/CurriculumVitaeCampoBavoGithub20230124.pdf) if you want a detailed overview of my work experience and professional skills.
+
+<!-- <object data="{{ site.url }}{{ site.baseurl }}/CV/CurriculumVitaeCampoBavoGithub20230124.pdf#navpanes=0" width="1200" height="1000" type="application/pdf" frameBorder="0"></object> -->
+
+
 
 # Work experience
 *A more detailed list of my projects and my roles herein will appear soon.*
