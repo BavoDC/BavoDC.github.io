@@ -373,12 +373,28 @@ a:hover { text-decoration: underline; }
 
 #photome { width: 15%; float: left; }
 
-@media (max-width: 600px) { #photome { width: 30%; } }
-
 .fa.fa-linkedin:hover { transform: scale(1.2); }
 
 .fa.fa-envelope:hover { transform: scale(1.2); }
 
 .fa.fa-github:hover { transform: scale(1.2); }
+
+div { width: 200px; }
+
+ul { list-style-type: "- "; list-style-position: inside; padding-left: 0px; }
+
+.square { list-style-type: square; list-style-position: outside; }
+
+details > summary { padding: 2px 6px; width: 50%; background-color: #cceeff; border: none; box-shadow: 3px 3px 4px black; cursor: pointer; }
+
+details > p { border-radius: 0 0 10px 10px; background-color: #ddd; padding: 2px 6px; margin: 0; box-shadow: 3px 3px 4px black; }
+
+details[open] > summary { background-color: #0077b3; color: white; }
+
+#mobile-only { display: none; }
+
+#desktop-only { display: block; }
+
+@media (max-width: 600px) { #photome { width: 30%; } #mobile-only { display: block; } #desktop-only { display: none; } details > summary { padding: 2px 6px; width: 100%; background-color: #cceeff; border: none; box-shadow: 3px 3px 4px black; cursor: pointer; } }
 
 /*# sourceMappingURL=style.css.map */
