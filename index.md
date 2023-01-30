@@ -26,7 +26,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
     </tr>
     <tr>
       <td style="border:0">
-      <a href="https://feb.kuleuven.be/eng/home"><img src="/img/KULFEBAdj.png" width="110px" height="56px"/></a>
+      <a href="https://feb.kuleuven.be/eng/home" target="_blank"><img src="/img/KULFEBAdj.png" width="110px" height="56px"/></a>
       </td>
       <td style="border:0">
       Department of Accountancy, Finance and Insurance<br>
@@ -67,7 +67,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
     </tr>
     <tr>
       <td style="border:0">
-      <a href="https://med.kuleuven.be/en"><img src="/img/KULMedicineAdj.png" width="115px" height="50px"/></a>
+      <a href="https://med.kuleuven.be/en" target="_blank"><img src="/img/KULMedicineAdj.png" width="115px" height="50px"/></a>
       </td>
       <td style="border:0">
       Department of Development and regeneration<br>
@@ -123,7 +123,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
     </tr>
     <tr>
       <td style="border:0">
-      <a href="https://feb.kuleuven.be/eng/home"><img src="/img/KULFEBAdj.png" width="110px" height="56px"/></a>
+      <a href="https://feb.kuleuven.be/eng/home" target="_blank"><img src="/img/KULFEBAdj.png" width="110px" height="56px"/></a>
       </td>
       <td style="border:0">
       Department of Managerial Economics, Strategy and Innovation<br>
@@ -158,7 +158,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
     </tr>
     <tr>
       <td style="border:0">
-      <a href="https://feb.kuleuven.be/eng/home"><img src="/img/KULFEBAdj.png" width="110px" height="56px"/></a>
+      <a href="https://feb.kuleuven.be/eng/home" target="_blank"><img src="/img/KULFEBAdj.png" width="110px" height="56px"/></a>
       </td>
       <td style="border:0">
       Dpt. of Accountancy, Finance and Insurance<br>
@@ -197,7 +197,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
     </tr>
     <tr>
       <td style="border:0">
-      <a href="https://med.kuleuven.be/en"><img src="/img/KULMedicineAdj.png" width="115px" height="50px"/></a>
+      <a href="https://med.kuleuven.be/en" target="_blank"><img src="/img/KULMedicineAdj.png" width="115px" height="50px"/></a>
       </td>
       <td style="border:0">
       Dpt. of Development and regeneration<br>
@@ -251,7 +251,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
     </tr>
     <tr>
       <td style="border:0">
-      <a href="https://feb.kuleuven.be/eng/home"><img src="/img/KULFEBAdj.png" width="110px" height="56px"/></a>
+      <a href="https://feb.kuleuven.be/eng/home" target="_blank"><img src="/img/KULFEBAdj.png" width="110px" height="56px"/></a>
       </td>
       <td style="border:0">
       Dpt. of Managerial Economics, Strategy and Innovation<br>
