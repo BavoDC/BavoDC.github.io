@@ -284,6 +284,13 @@ A detailed overview of my work experience and skills is given in my CV, which yo
 <i class="fa fa-graduation-cap fa" style="color:black"></i> BSc in Psychology, 2012
 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size="2" style="color:#00000099"> KU Leuven, Belgium</font>
 
+# Software
+I maintain the following two packages on CRAN:
+* [CalibrationCurves](https://cran.r-project.org/package=CalibrationCurves){:target="blank"};
+* [actuaRE](https://cran.r-project.org/package=actuaRE){:target="blank"}.
+<br><br>
+If you have any questions or suggestions, please feel free to contact me!
+
 # Personal links
 * [Github page](https://github.com/BavoDC){:target="_blank"}
 * [Researchgate](https://www.researchgate.net/profile/Bavo-De-Cock){:target="_blank"}
