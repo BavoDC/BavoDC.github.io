@@ -10,7 +10,7 @@ Currently I am doing my PhD in Actuarial Science at the KU Leuven, under the sup
 
 
 # Work experience
-A detailed overview of my work experience and skills is given in my CV, which you can access via this [link](./CV/CurriculumVitaeCampoBavoGithub20230124.pdf). If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}.
+A detailed overview of my work experience and skills is given in my CV, which you can access via this [link](./CV/CurriculumVitaeCampoBavoGeneral.pdf). If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}.
 
 <table id="desktop-only" style="text-align: left; width: 100%;border:0;table-layout:fixed">
   <col width="25%" />
