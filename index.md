@@ -4,21 +4,72 @@ title: Bavo D.C. Campo
 show_social_links: true
 # description: Personal website
 ---
-I am a data scientist and a statistician, who tries to combine the best of two worlds. I have over 8 years of experience and my area of expertise lies in the construction and validation of predictive models. I also have experience in other research areas, such as clustering and assessing the agreement or reliability of repeated measurements. Further, I am proficient in and have a passion for programming (especially in R). I love to immerse myself in new research projects, which require me to solve complex problems and to analyze the data thoroughly. Tackling new, unfamiliar challenges is something I look forward to as it allows me to grow and develop new knowledge and new skills.
+<script>  
+    var dob = new Date("01/02/2015");  
+    //calculate month difference from current date in time  
+    var month_diff = Date.now() - dob.getTime();  
+      
+    //convert the calculated difference in date format  
+    var age_dt = new Date(month_diff);   
+      
+    //extract year from date      
+    var year = age_dt.getUTCFullYear();  
+      
+    //now calculate the age of the user  
+    var age = Math.abs(year - 1970);  
+      
+    //display the calculated age  
+    //document.write(age);  
+</script> 
+I am a data scientist and a statistician, who tries to combine the best of two worlds. I have over <script>document.write(age);</script> years of experience and my area of expertise lies in the construction and validation of predictive models. I also have experience in other research areas, such as clustering and assessing the agreement or reliability of repeated measurements. Further, I am proficient in and have a passion for programming (especially in R). I love to immerse myself in new research projects, which require me to solve complex problems and to analyze the data thoroughly. Tackling new, unfamiliar challenges is something I look forward to as it allows me to grow and develop new knowledge and new skills.
 
-Currently I am doing my PhD in Actuarial Science at the KU Leuven, under the supervision of professor dr [Katrien Antonio](https://katrienantonio.github.io/){:target="_blank"}. My research focuses on the development and evaluation of predictive modeling techniques within actuarial science. In my research, I assess the performance of both statistical and machine learning methods. Another part of my research focuses on the development of fraud detection models using social network features. Here, I examine both the methodological and practical part.
-
+I did my PhD in Actuarial Science at the KU Leuven, under the supervision of professor dr [Katrien Antonio](https://katrienantonio.github.io/){:target="_blank"}. My research focused on the development and evaluation of predictive modeling techniques within actuarial science. In my research, I assessed the performance of both statistical and machine learning methods. Another part of my research focused on the development of fraud detection models using social network features. Here, I examined both the methodological and practical part.
 
 # Work experience
-A detailed overview of my work experience and skills is given in my CV, which you can access via this [link](./CV/CurriculumVitaeCampoBavoGeneral.pdf). If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}.
+A detailed overview of my work experience and skills is given in my CV (please do note that this version has to be updated), which you can access via this [link](./CV/CurriculumVitaeCampoBavoGeneral.pdf). If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}.
 
 <table id="desktop-only" style="text-align: left; width: 100%;border:0;table-layout:fixed">
   <col width="25%" />
   <col width="75%" />
   <tbody>
+  <tr>
+    <td style="border:0">
+      Oct 2023 - Present
+      </td>
+      <td style="border:0">
+      <b>Risk Officer</b>
+      </td>
+    </tr>
     <tr>
       <td style="border:0">
-      Oct 2019 - Present
+      <a href="https://www.ageas.com/" target="_blank"><img src="/img/Ageas.png" width="80px" height="75px"/></a>
+      </td>
+      <td style="border:0">
+      Valuation Non-Life Risk<br>
+      Ageas
+      </td>
+    </tr>
+    <tr>
+      <td style="border:0">
+      </td>
+      <td style="border:0">
+      <details>
+      	<summary><i>Projects (click to open):</i></summary>
+        <ul max-width=70px>
+          <li>Coordinate Non-Life Best Estimate and IFRS17 reserving policies across Ageas entities. Development of challenger reserving models to validate results of operating companies.</li>
+          <li>Develop, implement, test and document the Internal Model for non-life underwriting risk.</li>
+          <li>Run on quarterly basis the group models and production of non-life group reserving and risk reports, contributing to overall communication, interpretation and presentation of internal and external results.</li>
+          <li>Challenge results and methodologies of operating companies.</li>
+          <li>Participate to harmonization of methods</li>
+          <li>Develop and implement group policies</li>
+          <li>Embed sustainability in underwriting policy and assess long-term impact of climate change on non-life underwriting risk.</li>
+        </ul>
+      </details>
+      </td>
+    </tr>
+    <tr>
+      <td style="border:0">
+      Oct 2019 - Sep 2023
       </td>
       <td style="border:0">
       <b>Doctoral researcher</b>
@@ -148,9 +199,44 @@ A detailed overview of my work experience and skills is given in my CV, which yo
   <col width="35%" />
   <col width="65%" />
   <tbody>
+   <tr>
+    <td style="border:0">
+      Oct 2023 - Present
+      </td>
+      <td style="border:0">
+      <b>Risk Officer</b>
+      </td>
+    </tr>
     <tr>
       <td style="border:0">
-      Oct 2019 - Present
+      <a href="https://www.ageas.com/" target="_blank"><img src="/img/Ageas.png" width="80px" height="75px"/></a>
+      </td>
+      <td style="border:0">
+      Valuation Non-Life Risk<br>
+      Ageas
+      </td>
+    </tr>
+    <tr>
+      <td style="border:0">
+      </td>
+      <td style="border:0">
+      <details>
+      	<summary><i>Projects (click to open):</i></summary>
+        <ul max-width=70px>
+          <li>Coordinate Non-Life Best Estimate and IFRS17 reserving policies across Ageas entities. Development of challenger reserving models to validate results of operating companies.</li>
+          <li>Develop, implement, test and document the Internal Model for non-life underwriting risk.</li>
+          <li>Run on quarterly basis the group models and production of non-life group reserving and risk reports, contributing to overall communication, interpretation and presentation of internal and external results.</li>
+          <li>Challenge results and methodologies of operating companies.</li>
+          <li>Participate to harmonization of methods</li>
+          <li>Develop and implement group policies</li>
+          <li>Embed sustainability in underwriting policy and assess long-term impact of climate change on non-life underwriting risk.</li>
+        </ul>
+      </details>
+      </td>
+    </tr>
+    <tr>
+      <td style="border:0">
+      Oct 2019 - Sep 2023
       </td>
       <td style="border:0">
       <b>Doctoral researcher</b>
@@ -271,7 +357,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
 </table>
 
 # Education
-<i class="fa fa-graduation-cap fa" style="color:black"></i> PhD in Business Economics, Present
+<i class="fa fa-graduation-cap fa" style="color:black"></i> PhD in Business Economics, 2023
 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size="2" style="color:#00000099"> KU Leuven, Belgium</font>
 
 <i class="fa fa-graduation-cap fa" style="color:black"></i> MSc in Statistics, 2019
