@@ -28,6 +28,7 @@ I did my PhD in Actuarial Science at the KU Leuven, under the supervision of pro
 # Work experience
 A detailed overview of my work experience and skills is given in my CV (please do note that this version has to be updated), which you can access via this [link](./CV/CurriculumVitaeCampoBavoGeneral.pdf). If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}.
 
+<!--  Work experience: desktop version -->
 <table id="desktop-only" style="text-align: left; width: 100%;border:0;table-layout:fixed">
   <col width="25%" />
   <col width="75%" />
@@ -195,6 +196,7 @@ A detailed overview of my work experience and skills is given in my CV (please d
   </tbody>
 </table>
 
+<!--  Work experience: mobile version -->
 <table id="mobile-only" style="text-align: left; width: 100%;border:0;table-layout:fixed">
   <col width="35%" />
   <col width="65%" />
@@ -217,9 +219,7 @@ A detailed overview of my work experience and skills is given in my CV (please d
       </td>
     </tr>
     <tr>
-      <td style="border:0">
-      </td>
-      <td style="border:0">
+      <td colspan="2" style="border:0">
       <details>
       	<summary><i>Projects (click to open):</i></summary>
         <ul max-width=70px>
