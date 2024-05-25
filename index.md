@@ -26,7 +26,7 @@ I am a data scientist and a statistician, who tries to combine the best of two w
 I did my PhD in Actuarial Science at the KU Leuven, under the supervision of professor dr [Katrien Antonio](https://katrienantonio.github.io/){:target="_blank"}. My research focused on the development and evaluation of predictive modeling techniques within actuarial science. In my research, I assessed the performance of both statistical and machine learning methods. Another part of my research focused on the development of fraud detection models using social network features. Here, I examined both the methodological and practical part. If you want to read my PhD thesis, you can do so by clicking on this [link](./Thesis/DoctoralThesis_BavoDCCampo.pdf).
 
 # Work experience
-A detailed overview of my work experience and skills is given in my CV (please do note that this version has to be updated), which you can access via this [link](./CV/CurriculumVitaeCampoBavoGeneral.pdf). If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}.
+A detailed overview of my work experience and skills is given in my CV, which you can access via this [link](./CV/CurriculumVitaeCampoBavoGeneral.pdf). If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}.
 
 <!--  Work experience: desktop version -->
 <table id="desktop-only" style="text-align: left; width: 100%;border:0;table-layout:fixed">
@@ -56,14 +56,14 @@ A detailed overview of my work experience and skills is given in my CV (please d
       <td style="border:0">
       <details>
       	<summary><i>Projects (click to open):</i></summary>
+      	I contribute to the ongoing success of the organization by optimizing risk assessment frameworks, enhancing operational efficiency, and            driving strategic decision-making. Drawing on my methodological expertise, I continuously refine, improve, and challenge existing                  processes. My responsibilities include:
         <ul max-width=70px>
-          <li>Coordinate Non-Life Best Estimate and IFRS17 reserving policies across Ageas entities. Development of challenger reserving models to validate results of operating companies.</li>
-          <li>Develop, implement, test and document the Internal Model for non-life underwriting risk.</li>
-          <li>Run on quarterly basis the group models and production of non-life group reserving and risk reports, contributing to overall communication, interpretation and presentation of internal and external results.</li>
-          <li>Challenge results and methodologies of operating companies.</li>
-          <li>Participate to harmonization of methods</li>
-          <li>Develop and implement group policies</li>
-          <li>Embed sustainability in underwriting policy and assess long-term impact of climate change on non-life underwriting risk.</li>
+        <li>automating internal model processes: managing the automation of internal model processes and runs, streamlining operations for enhanced         efficiency;</li>
+        <li>methodology evaluation and enhancement: thoroughly examining and challenging existing methodologies, whilst developing and implementing         alternative methods to drive continuous improvement;</li>
+        <li>guiding tool development: comprehensive testing and guiding the development of internal model tools, ensuring robustness and                   reliability;</li>
+        <li>tool deployment and testing: leading the development and deployment of tools for testing the models, facilitating thorough evaluation          and validation of model outcomes;</li>
+        <li>implementation of external reinsurance model: implementing the external reinsurance model, optimizing risk management strategies for           the organization;</li>
+        <li>documentation management: ensuring comprehensive documentation of processes and procedures as well as of the implementations, fostering         transparency and accountability across all operations.</li>
         </ul>
       </details>
       </td>
@@ -222,14 +222,14 @@ A detailed overview of my work experience and skills is given in my CV (please d
       <td colspan="2" style="border:0">
       <details>
       	<summary><i>Projects (click to open):</i></summary>
+      	I contribute to the ongoing success of the organization by optimizing risk assessment frameworks, enhancing operational efficiency, and            driving strategic decision-making. Drawing on my methodological expertise, I continuously refine, improve, and challenge existing                  processes. My responsibilities include:
         <ul max-width=70px>
-          <li>Coordinate Non-Life Best Estimate and IFRS17 reserving policies across Ageas entities. Development of challenger reserving models to validate results of operating companies.</li>
-          <li>Develop, implement, test and document the Internal Model for non-life underwriting risk.</li>
-          <li>Run on quarterly basis the group models and production of non-life group reserving and risk reports, contributing to overall communication, interpretation and presentation of internal and external results.</li>
-          <li>Challenge results and methodologies of operating companies.</li>
-          <li>Participate to harmonization of methods</li>
-          <li>Develop and implement group policies</li>
-          <li>Embed sustainability in underwriting policy and assess long-term impact of climate change on non-life underwriting risk.</li>
+        <li>automating internal model processes: managing the automation of internal model processes and runs, streamlining operations for enhanced         efficiency;</li>
+        <li>methodology evaluation and enhancement: thoroughly examining and challenging existing methodologies, whilst developing and implementing         alternative methods to drive continuous improvement;</li>
+        <li>guiding tool development: comprehensive testing and guiding the development of internal model tools, ensuring robustness and                   reliability;</li>
+        <li>tool deployment and testing: leading the development and deployment of tools for testing the models, facilitating thorough evaluation          and validation of model outcomes;</li>
+        <li>implementation of external reinsurance model: implementing the external reinsurance model, optimizing risk management strategies for           the organization;</li>
+        <li>documentation management: ensuring comprehensive documentation of processes and procedures as well as of the implementations, fostering         transparency and accountability across all operations.</li>
         </ul>
       </details>
       </td>
