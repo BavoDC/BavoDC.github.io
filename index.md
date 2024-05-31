@@ -357,7 +357,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
 </table>
 
 # Education
-<i class="fa fa-graduation-cap fa" style="color:black"></i> PhD in Business Economics, 2023
+<i class="fa fa-graduation-cap fa" style="color:black"></i> PhD in Actuarial Science, 2023
 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size="2" style="color:#00000099"> KU Leuven, Belgium</font>
 
 <i class="fa fa-graduation-cap fa" style="color:black"></i> MSc in Statistics, 2019
