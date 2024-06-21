@@ -485,7 +485,7 @@ following block of code, we take a sample of 10 000 000 from a normal
 distribution using the <code>rnorm</code> function and assign it to the
 object <code>x</code>.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a>x <span class="sc">%&lt;=%</span> <span class="fu">rnorm</span>(<span class="fl">1e7</span>)</span></code></pre></div>
-<pre><code>## [1] &quot;1C02839C&quot;</code></pre>
+<pre><code>## [1] &quot;8B263209&quot;</code></pre>
 <p>When you run this code, the job ID will be printed in your console.
 Once the code has been executed in the background, the value of the
 right-hand side (i.e., <code>rnorm(1e7)</code>) will be assigned to the
@@ -500,29 +500,32 @@ environment. Below, we have an example of a block of code that stores
 all of the objects created on the right-hand side of the
 <code>%{}%</code> operator.</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="st">`</span><span class="at">%{}%</span><span class="st">`</span>({</span>
-<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a>  n  <span class="ot">=</span> <span class="fl">5e5</span></span>
-<span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a>  B  <span class="ot">=</span> <span class="fu">runif</span>(<span class="dv">5</span>)</span>
-<span id="cb5-4"><a href="#cb5-4" tabindex="-1"></a>  X  <span class="ot">=</span> MASS<span class="sc">::</span><span class="fu">mvrnorm</span>(n, <span class="fu">runif</span>(<span class="dv">5</span>), <span class="fu">diag</span>(<span class="dv">1</span>, <span class="at">nrow =</span> <span class="dv">5</span>))</span>
-<span id="cb5-5"><a href="#cb5-5" tabindex="-1"></a>  y  <span class="ot">=</span> X <span class="sc">%*%</span> B <span class="sc">+</span> <span class="fu">rnorm</span>(n)</span>
-<span id="cb5-6"><a href="#cb5-6" tabindex="-1"></a>  i  <span class="ot">=</span> <span class="fu">sample</span>(<span class="fu">seq_along</span>(y), <span class="fl">1e4</span>, <span class="cn">FALSE</span>)</span>
-<span id="cb5-7"><a href="#cb5-7" tabindex="-1"></a>  Xs <span class="ot">=</span> X[i, ]</span>
-<span id="cb5-8"><a href="#cb5-8" tabindex="-1"></a>  ys <span class="ot">=</span> y[i]</span>
-<span id="cb5-9"><a href="#cb5-9" tabindex="-1"></a>  B  <span class="ot">=</span> <span class="fu">solve</span>(<span class="fu">t</span>(Xs) <span class="sc">%*%</span> Xs) <span class="sc">%*%</span> <span class="fu">t</span>(Xs) <span class="sc">%*%</span> ys</span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a>  n    <span class="ot">=</span> <span class="fl">5e5</span></span>
+<span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a>  B    <span class="ot">=</span> <span class="fu">runif</span>(<span class="dv">5</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" tabindex="-1"></a>  X    <span class="ot">=</span> MASS<span class="sc">::</span><span class="fu">mvrnorm</span>(n, <span class="fu">runif</span>(<span class="dv">5</span>), <span class="fu">diag</span>(<span class="dv">1</span>, <span class="at">nrow =</span> <span class="dv">5</span>))</span>
+<span id="cb5-5"><a href="#cb5-5" tabindex="-1"></a>  y    <span class="ot">=</span> X <span class="sc">%*%</span> B <span class="sc">+</span> <span class="fu">rnorm</span>(n)</span>
+<span id="cb5-6"><a href="#cb5-6" tabindex="-1"></a>  i    <span class="ot">=</span> <span class="fu">sample</span>(<span class="fu">seq_along</span>(y), <span class="fl">1e4</span>, <span class="cn">FALSE</span>)</span>
+<span id="cb5-7"><a href="#cb5-7" tabindex="-1"></a>  Xs   <span class="ot">=</span> X[i, ]</span>
+<span id="cb5-8"><a href="#cb5-8" tabindex="-1"></a>  ys   <span class="ot">=</span> y[i]</span>
+<span id="cb5-9"><a href="#cb5-9" tabindex="-1"></a>  Bhat <span class="ot">=</span> <span class="fu">solve</span>(<span class="fu">t</span>(Xs) <span class="sc">%*%</span> Xs) <span class="sc">%*%</span> <span class="fu">t</span>(Xs) <span class="sc">%*%</span> ys</span>
 <span id="cb5-10"><a href="#cb5-10" tabindex="-1"></a>})</span></code></pre></div>
-<pre><code>## [1] &quot;06131ABC&quot;</code></pre>
+<pre><code>## [1] &quot;89371366&quot;</code></pre>
 <p>The example above show the first way to use the operator. Here, we
 enclose the operator with backticks <code>`%{}%`</code> and we enclose
 the right-hand side with round and curly brackets
 <code>({..code...})</code>, respectively. The second method to use the
 <code>%{}%</code> operator is as follows</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="cn">NULL</span> <span class="sc">%{}%</span> {</span>
-<span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a>  n <span class="ot">=</span> <span class="fl">5e5</span></span>
-<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a>  B <span class="ot">=</span> <span class="fu">runif</span>(<span class="dv">5</span>)</span>
-<span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a>  X <span class="ot">=</span> MASS<span class="sc">::</span><span class="fu">mvrnorm</span>(n, <span class="fu">runif</span>(<span class="dv">5</span>), <span class="fu">diag</span>(<span class="dv">1</span>, <span class="at">nrow =</span> <span class="dv">5</span>))</span>
-<span id="cb7-5"><a href="#cb7-5" tabindex="-1"></a>  y <span class="ot">=</span> X <span class="sc">%*%</span> B <span class="sc">+</span> <span class="fu">rnorm</span>(n)</span>
-<span id="cb7-6"><a href="#cb7-6" tabindex="-1"></a>  B <span class="ot">=</span> <span class="fu">solve</span>(<span class="fu">t</span>(X) <span class="sc">%*%</span> X) <span class="sc">%*%</span> <span class="fu">t</span>(X) <span class="sc">%*%</span> y</span>
-<span id="cb7-7"><a href="#cb7-7" tabindex="-1"></a>}</span></code></pre></div>
-<pre><code>## [1] &quot;175AA673&quot;</code></pre>
+<span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a>  n    <span class="ot">=</span> <span class="fl">5e5</span></span>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a>  B    <span class="ot">=</span> <span class="fu">runif</span>(<span class="dv">5</span>)</span>
+<span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a>  X    <span class="ot">=</span> MASS<span class="sc">::</span><span class="fu">mvrnorm</span>(n, <span class="fu">runif</span>(<span class="dv">5</span>), <span class="fu">diag</span>(<span class="dv">1</span>, <span class="at">nrow =</span> <span class="dv">5</span>))</span>
+<span id="cb7-5"><a href="#cb7-5" tabindex="-1"></a>  y    <span class="ot">=</span> X <span class="sc">%*%</span> B <span class="sc">+</span> <span class="fu">rnorm</span>(n)</span>
+<span id="cb7-6"><a href="#cb7-6" tabindex="-1"></a>  i    <span class="ot">=</span> <span class="fu">sample</span>(<span class="fu">seq_along</span>(y), <span class="fl">1e4</span>, <span class="cn">FALSE</span>)</span>
+<span id="cb7-7"><a href="#cb7-7" tabindex="-1"></a>  Xs   <span class="ot">=</span> X[i, ]</span>
+<span id="cb7-8"><a href="#cb7-8" tabindex="-1"></a>  ys   <span class="ot">=</span> y[i]</span>
+<span id="cb7-9"><a href="#cb7-9" tabindex="-1"></a>  Bhat <span class="ot">=</span> <span class="fu">solve</span>(<span class="fu">t</span>(Xs) <span class="sc">%*%</span> Xs) <span class="sc">%*%</span> <span class="fu">t</span>(Xs) <span class="sc">%*%</span> ys</span>
+<span id="cb7-10"><a href="#cb7-10" tabindex="-1"></a>}</span></code></pre></div>
+<pre><code>## [1] &quot;ACD083F1&quot;</code></pre>
 <p>Here, we can include <code>NULL</code> on the left-hand side since
 nothing will get assigned to the left-hand side. Currently, I haven’t
 found a more elegant way to define the operator.</p>
@@ -544,7 +547,7 @@ the code.</p>
 <span id="cb10-10"><a href="#cb10-10"></a>##     stop(&quot;Temporary R script not created&quot;)</span>
 <span id="cb10-11"><a href="#cb10-11"></a>##   jobRunScript(tmpR, exportEnv = &quot;R_GlobalEnv&quot;, importEnv = TRUE)</span>
 <span id="cb10-12"><a href="#cb10-12"></a>## }</span>
-<span id="cb10-13"><a href="#cb10-13"></a>## &lt;bytecode: 0x000001f6eb8a14c0&gt;</span>
+<span id="cb10-13"><a href="#cb10-13"></a>## &lt;bytecode: 0x0000026d97094490&gt;</span>
 <span id="cb10-14"><a href="#cb10-14"></a>## &lt;environment: namespace:CalibrationCurves&gt;</span></code></pre></div>
 <p>Here’s what happens on each line of code:</p>
 <ol start="3" style="list-style-type: decimal">
@@ -589,8 +592,9 @@ of the operator.</p>
 ##     stop(&quot;Temporary R script not created&quot;)
 ##   jobRunScript(tmpR, exportEnv = &quot;R_GlobalEnv&quot;, importEnv = TRUE)
 ## }
-## &lt;bytecode: 0x000001f6ee2341f0&gt;
+## &lt;bytecode: 0x0000026d998a6f48&gt;
 ## &lt;environment: namespace:CalibrationCurves&gt;</code></pre>
+<p><a href="https://www.r-bloggers.com/" class="uri">https://www.r-bloggers.com/</a></p>
 </div>
 </div>
 
