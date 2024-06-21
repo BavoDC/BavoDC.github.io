@@ -3,7 +3,8 @@ layout: default
 title: Publications
 description: My contributions to research
 ---
-For an overview of my list of publications, you can click this <a href="https://lirias.kuleuven.be/cv?Username=U0095171" target="_blank">link</a> to visit my profile on the KU Leuven research database. This page includes a comprehensive list of my research articles, conference papers, and other scholarly works.
+For an overview of my list of publications, you can click this <a href="https://lirias.kuleuven.be/cv?Username=U0095171" target="_blank">link</a> to visit my profile on the KU Leuven research database. This page includes a comprehensive list of my research articles, conference papers, and other scholarly works. You can also visit my website on [Researchgate](https://www.researchgate.net/profile/Bavo-De-Cock){:target="_blank"} to get an overview of my academic work.
+
 
 You can also download my PhD thesis directly using this [link](./Thesis/DoctoralThesis_BavoDCCampo.pdf). My doctoral research focused on the use of hierarchical and network data in predictive modeling.
 
@@ -15,5 +16,9 @@ Below are a few highlights from my recent publications:
 
 I invite you to explore these works and reach out if you have any questions or if you are interested in potential collaborations. Thank you for your interest in my research!
 
+# Books
+Over the years, I acquired a substantial amount of knowledge on programming and data analysis. Just as the professors, everyone at stackoverflow and countless others, I want to transfer this accumulated knowledge to help others. Hereto, I helped rewrite and adjust some of the books of professor dr [Katrien Antonio](https://katrienantonio.github.io/){:target="_blank"}:
+* [Introduction to R](./intro-R-book_RawFiles){:target="_blank"}
+* [Loss Models](./Loss-Models){:target="_blank"}
 
 [back](./)

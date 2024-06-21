@@ -74,16 +74,16 @@
     var dob = new Date("01/02/2015");  
     //calculate month difference from current date in time  
     var month_diff = Date.now() - dob.getTime();  
-      
+
     //convert the calculated difference in date format  
     var age_dt = new Date(month_diff);   
-      
+
     //extract year from date      
     var year = age_dt.getUTCFullYear();  
-      
+
     //now calculate the age of the user  
     var age = Math.abs(year - 1970);  
-      
+
     //display the calculated age  
     //document.write(age);  
 </script>
@@ -438,28 +438,37 @@
 <br />       <font size="2" style="color:#00000099"> KU Leuven, Belgium</font></p>
 
 <h1 id="software">Software</h1>
-<p>I maintain the following two packages on CRAN:</p>
+<p>You can find a selected set of my software projects on my <a href="https://github.com/BavoDC" target="_blank">Github page</a>. Of these, two are published on CRAN. If you have any questions or suggestions, please feel free to contact me! I look forward to hearing from you.</p>
+
+<h2 id="cran-packages">CRAN packages</h2>
+
+<h3 id="calibrationcurves"><a href="https://cran.r-project.org/package=CalibrationCurves" target="blank">CalibrationCurves</a></h3>
+<p>With the <code class="language-plaintext highlighter-rouge">CalibrationCurves</code> package, you can generate (generalized) calibration curves, which are essential for evaluating the calibration performance of predictive models. In addition, it also computes a comprehensive range of statistics to assess the predictive performance of your model. As such, this package provides the necessary tools to evaluate the performance of your predictive model.</p>
+
+<p>Detailed information as well as a tutorial can be found on the package’s <a href="https://bavodc.github.io/websiteCalibrationCurves/" target="blank">website</a>.</p>
+
+<h4 id="key-features">Key Features:</h4>
 <ul>
-  <li><a href="https://cran.r-project.org/package=CalibrationCurves" target="blank">CalibrationCurves</a>;</li>
-  <li><a href="https://cran.r-project.org/package=actuaRE" target="blank">actuaRE</a>.
-<br /><br />
-If you have any questions or suggestions, please feel free to contact me!</li>
+  <li>Generate calibration plots easily (both with base R and <a href="https://ggplot2.tidyverse.org/">ggplot</a>).</li>
+  <li>Assess model performance with various calibration and discrimination metrics.</li>
+  <li>Supports both binary and continuous outcomes.</li>
 </ul>
 
-<h1 id="personal-links">Personal links</h1>
+<h2 id="actuare"><a href="https://cran.r-project.org/package=actuaRE" target="blank">actuaRE</a></h2>
+<p>Using this package, you can fit a random effects model using either the hierarchical credibility model, a combination of the hierarchical credibility model with a generalized linear model or a Tweedie generalized linear mixed model.</p>
+
+<p>As the CalibrationCurves package, this package also has its own dedicated <a href="https://bavodc.github.io/websiteactuaRE/">website</a> with a tutorial and comprehensive overview of the package’s functionality.</p>
+
+<h3 id="key-features-1">Key Features:</h3>
 <ul>
-  <li><a href="https://github.com/BavoDC" target="_blank">Github page</a></li>
-  <li><a href="https://www.researchgate.net/profile/Bavo-De-Cock" target="_blank">Researchgate</a></li>
-  <li><a href="https://www.kuleuven.be/wieiswie/nl/person/00095171" target="_blank">KU Leuven</a></li>
-  <li><a href="https://be.linkedin.com/in/bavo-de-cock-campo-584087b6" target="_blank">Linkedin</a></li>
+  <li>Fit a random effects model with nested random effect using three different estimation methods.</li>
+  <li>Obtain a comprehensive overview of the properties of the fitted model.</li>
+  <li>Verify whether a fitted model has the balance property (i.e., the sum of the predicted values equals the sum of actual observations).</li>
+  <li>Regain the balance property by adjusting the intercept term.</li>
+  <li>Analyze and visualize the random effect predictions.</li>
 </ul>
 
-<h1 id="books">Books</h1>
-<p>Over the years, I have acquired a substantial amount of knowledge on programming and data analysis. Just as the professors, everyone at stackoverflow and countless others, I want to transfer this accumulated knowledge to help others. Hereto, I helped rewrite and adjust some of the books of professor dr <a href="https://katrienantonio.github.io/" target="_blank">Katrien Antonio</a>:</p>
-<ul>
-  <li><a href="./intro-R-book_RawFiles" target="_blank">Introduction to R</a></li>
-  <li><a href="./Loss-Models" target="_blank">Loss Models</a></li>
-</ul>
+<p>I am committed to continuously improving these packages and adding new features based on user feedback and the latest research developments. Your input is invaluable, and I welcome any questions, suggestions, or collaboration ideas.</p>
 
 
       <!-- <footer class="site-footer">

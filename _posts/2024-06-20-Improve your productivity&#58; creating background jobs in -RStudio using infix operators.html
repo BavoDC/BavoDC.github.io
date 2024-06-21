@@ -463,13 +463,15 @@ line.</p>
 <h2>Using infix operators to create a background job</h2>
 <p>So… can we do this? The answer is yes and this is one of the many
 reasons why I love R! Hereto, you can use the infix operators
-<code>%&lt;=%</code> and <code>%{}%</code> of the
-<code>CalibrationCurves</code> (or <code>actuaRE</code> with the next
-update) package. Using these operators, you can run (a block of) code in
-the background without the need of setting up a separate R script and
-the configurations. Further, you can keep working in your current
-working directory. Once the job is finished, the results will be
-imported into your current working directory.</p>
+<code>%&lt;=%</code> and <code>%{}%</code> of the <a href="https://cran.r-project.org/package=CalibrationCurves"><code>CalibrationCurves</code></a>
+(or <a href="https://cran.r-project.org/package=actuaRE"><code>actuaRE</code></a>
+with the next update) package. Both packages are available on CRAN and
+can be installed using <code>install.packages</code>.</p>
+<p>Using these operators, you can run (a block of) code in the
+background without the need of setting up a separate R script and the
+configurations. Further, you can keep working in your current working
+directory. Once the job is finished, the results will be imported into
+your current working directory.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="co"># Load package and suppress messages, warnings for outdated packages</span></span>
 <span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="fu">suppressWarnings</span>(<span class="fu">suppressMessages</span>(<span class="fu">library</span>(CalibrationCurves)))</span>
 <span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a>?<span class="st">`</span><span class="at">%&lt;=%</span><span class="st">`</span></span></code></pre></div>
@@ -482,7 +484,7 @@ following block of code, we take a sample of 10 000 000 from a normal
 distribution using the <code>rnorm</code> function and assign it to the
 object <code>x</code>.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a>x <span class="sc">%&lt;=%</span> <span class="fu">rnorm</span>(<span class="fl">1e7</span>)</span></code></pre></div>
-<pre><code>## [1] &quot;95387BA5&quot;</code></pre>
+<pre><code>## [1] &quot;73073B57&quot;</code></pre>
 <p>When you run this code, the job ID will be printed in your console.
 Once the code has been executed in the background, the value of the
 right-hand side (i.e., <code>rnorm(1e7)</code>) will be assigned to the
@@ -506,7 +508,7 @@ all of the objects created on the right-hand side of the
 <span id="cb5-8"><a href="#cb5-8" tabindex="-1"></a>  ys <span class="ot">=</span> y[i]</span>
 <span id="cb5-9"><a href="#cb5-9" tabindex="-1"></a>  B  <span class="ot">=</span> <span class="fu">solve</span>(<span class="fu">t</span>(Xs) <span class="sc">%*%</span> Xs) <span class="sc">%*%</span> <span class="fu">t</span>(Xs) <span class="sc">%*%</span> ys</span>
 <span id="cb5-10"><a href="#cb5-10" tabindex="-1"></a>})</span></code></pre></div>
-<pre><code>## [1] &quot;D1F203FE&quot;</code></pre>
+<pre><code>## [1] &quot;1AB63C41&quot;</code></pre>
 <p>The example above show the first way to use the operator. Here, we
 enclose the operator with backticks <code>`%{}%`</code> and we enclose
 the right-hand side with round and curly brackets
@@ -519,7 +521,7 @@ the right-hand side with round and curly brackets
 <span id="cb7-5"><a href="#cb7-5" tabindex="-1"></a>  y <span class="ot">=</span> X <span class="sc">%*%</span> B <span class="sc">+</span> <span class="fu">rnorm</span>(n)</span>
 <span id="cb7-6"><a href="#cb7-6" tabindex="-1"></a>  B <span class="ot">=</span> <span class="fu">solve</span>(<span class="fu">t</span>(X) <span class="sc">%*%</span> X) <span class="sc">%*%</span> <span class="fu">t</span>(X) <span class="sc">%*%</span> y</span>
 <span id="cb7-7"><a href="#cb7-7" tabindex="-1"></a>}</span></code></pre></div>
-<pre><code>## [1] &quot;B420FF0A&quot;</code></pre>
+<pre><code>## [1] &quot;290842B3&quot;</code></pre>
 <p>Here, we can include <code>NULL</code> on the left-hand side since
 nothing will get assigned to the left-hand side. Currently, I haven’t
 found a more elegant way to define the operator.</p>
@@ -541,7 +543,7 @@ the code.</p>
 <span id="cb10-10"><a href="#cb10-10"></a>##     stop(&quot;Temporary R script not created&quot;)</span>
 <span id="cb10-11"><a href="#cb10-11"></a>##   jobRunScript(tmpR, exportEnv = &quot;R_GlobalEnv&quot;, importEnv = TRUE)</span>
 <span id="cb10-12"><a href="#cb10-12"></a>## }</span>
-<span id="cb10-13"><a href="#cb10-13"></a>## &lt;bytecode: 0x0000024554307cb8&gt;</span>
+<span id="cb10-13"><a href="#cb10-13"></a>## &lt;bytecode: 0x000001a2ffd86e80&gt;</span>
 <span id="cb10-14"><a href="#cb10-14"></a>## &lt;environment: namespace:CalibrationCurves&gt;</span></code></pre></div>
 <p>Here’s what happens on each line of code:</p>
 <ol start="3" style="list-style-type: decimal">
@@ -559,7 +561,7 @@ ensure these are loaded when we start our background R session (see
 <li>Using the function <code>tempfile</code>, we create a temporary R
 script.</li>
 <li>We save our code in the temporary R script.</li>
-<li>to 12.`A sanity check if performed to verify whether the temporary
+<li>to 12. A sanity check if performed to verify whether the temporary
 file has been created.</li>
 </ol>
 <p><br></p>
@@ -586,7 +588,7 @@ of the operator.</p>
 ##     stop(&quot;Temporary R script not created&quot;)
 ##   jobRunScript(tmpR, exportEnv = &quot;R_GlobalEnv&quot;, importEnv = TRUE)
 ## }
-## &lt;bytecode: 0x000002455673cf10&gt;
+## &lt;bytecode: 0x000001a301fab798&gt;
 ## &lt;environment: namespace:CalibrationCurves&gt;</code></pre>
 </div>
 </div>

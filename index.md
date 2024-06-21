@@ -8,19 +8,19 @@ show_social_links: true
     var dob = new Date("01/02/2015");  
     //calculate month difference from current date in time  
     var month_diff = Date.now() - dob.getTime();  
-      
+
     //convert the calculated difference in date format  
     var age_dt = new Date(month_diff);   
-      
+
     //extract year from date      
     var year = age_dt.getUTCFullYear();  
-      
+
     //now calculate the age of the user  
     var age = Math.abs(year - 1970);  
-      
+
     //display the calculated age  
     //document.write(age);  
-</script> 
+</script>
 I am a data scientist and a statistician, who tries to combine the best of two worlds. I have over <script>document.write(age);</script> years of experience and my area of expertise lies in the construction and validation of predictive models. I also have experience in other research areas, such as clustering and assessing the agreement or reliability of repeated measurements. Further, I am proficient in and have a passion for programming (especially in R). I love to immerse myself in new research projects, which require me to solve complex problems and to analyze the data thoroughly. Tackling new, unfamiliar challenges is something I look forward to as it allows me to grow and develop new knowledge and new skills.
 
 I did my PhD in Actuarial Science at the KU Leuven, under the supervision of professor dr [Katrien Antonio](https://katrienantonio.github.io/){:target="_blank"}. My research focused on the development and evaluation of predictive modeling techniques within actuarial science. In my research, I assessed the performance of both statistical and machine learning methods. Another part of my research focused on the development of fraud detection models using social network features. Here, I examined both the methodological and practical part. If you want to read my PhD thesis, you can do so by clicking on this [link](./Thesis/DoctoralThesis_BavoDCCampo.pdf).
@@ -371,19 +371,30 @@ A detailed overview of my work experience and skills is given in my CV, which yo
 <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size="2" style="color:#00000099"> KU Leuven, Belgium</font>
 
 # Software
-I maintain the following two packages on CRAN:
-* [CalibrationCurves](https://cran.r-project.org/package=CalibrationCurves){:target="blank"};
-* [actuaRE](https://cran.r-project.org/package=actuaRE){:target="blank"}.
-<br><br>
-If you have any questions or suggestions, please feel free to contact me!
+You can find a selected set of my software projects on my [Github page](https://github.com/BavoDC){:target="_blank"}. Of these, two are published on CRAN. If you have any questions or suggestions, please feel free to contact me! I look forward to hearing from you.
 
-# Personal links
-* [Github page](https://github.com/BavoDC){:target="_blank"}
-* [Researchgate](https://www.researchgate.net/profile/Bavo-De-Cock){:target="_blank"}
-* [KU Leuven](https://www.kuleuven.be/wieiswie/nl/person/00095171){:target="_blank"}
-* [Linkedin](https://be.linkedin.com/in/bavo-de-cock-campo-584087b6){:target="_blank"}
+## CRAN packages
 
-# Books
-Over the years, I have acquired a substantial amount of knowledge on programming and data analysis. Just as the professors, everyone at stackoverflow and countless others, I want to transfer this accumulated knowledge to help others. Hereto, I helped rewrite and adjust some of the books of professor dr [Katrien Antonio](https://katrienantonio.github.io/){:target="_blank"}:
-* [Introduction to R](./intro-R-book_RawFiles){:target="_blank"}
-* [Loss Models](./Loss-Models){:target="_blank"}
+### [CalibrationCurves](https://cran.r-project.org/package=CalibrationCurves){:target="blank"}
+With the `CalibrationCurves` package, you can generate (generalized) calibration curves, which are essential for evaluating the calibration performance of predictive models. In addition, it also computes a comprehensive range of statistics to assess the predictive performance of your model. As such, this package provides the necessary tools to evaluate the performance of your predictive model.
+
+Detailed information as well as a tutorial can be found on the package's [website](https://bavodc.github.io/websiteCalibrationCurves/){:target="blank"}.
+
+#### Key Features:
+- Generate calibration plots easily (both with base R and [ggplot](https://ggplot2.tidyverse.org/)).
+- Assess model performance with various calibration and discrimination metrics.
+- Supports both binary and continuous outcomes.
+
+## [actuaRE](https://cran.r-project.org/package=actuaRE){:target="blank"}
+Using this package, you can fit a random effects model using either the hierarchical credibility model, a combination of the hierarchical credibility model with a generalized linear model or a Tweedie generalized linear mixed model.
+
+As the CalibrationCurves package, this package also has its own dedicated [website](https://bavodc.github.io/websiteactuaRE/) with a tutorial and comprehensive overview of the package's functionality.
+
+### Key Features:
+- Fit a random effects model with nested random effect using three different estimation methods.
+- Obtain a comprehensive overview of the properties of the fitted model.
+- Verify whether a fitted model has the balance property (i.e., the sum of the predicted values equals the sum of actual observations).
+- Regain the balance property by adjusting the intercept term.
+- Analyze and visualize the random effect predictions.
+
+I am committed to continuously improving these packages and adding new features based on user feedback and the latest research developments. Your input is invaluable, and I welcome any questions, suggestions, or collaboration ideas.
