@@ -25,6 +25,11 @@ I am a data scientist and a statistician, who tries to combine the best of two w
 
 I did my PhD in Actuarial Science at the KU Leuven, under the supervision of professor dr [Katrien Antonio](https://katrienantonio.github.io/){:target="_blank"}. My research focused on the development and evaluation of predictive modeling techniques within actuarial science. In my research, I assessed the performance of both statistical and machine learning methods. Another part of my research focused on the development of fraud detection models using social network features. Here, I examined both the methodological and practical part. If you want to read my PhD thesis, you can do so by clicking on this [link](./Thesis/DoctoralThesis_BavoDCCampo.pdf).
 
+Before my PhD, I worked as a biostatistian in the International Ovarian Tumor Analysis ([IOTA](https://www.iotagroup.org/)) group and I stayed connected to biomedical research throughout my whole career. In the IOTA group, I was part of an interdisciplinary
+team of researchers connected to UZ Leuven and KU Leuven. I worked on numerous projects, which provided me with a firm and solid
+basis in biostatistics. Furthermore, my main research projects focused on the development and validation of
+clinical prediction models.
+
 # Work experience
 A detailed overview of my work experience and skills is given in my CV, which you can access via this [link](./CV/CurriculumVitaeCampoBavoGeneral.pdf). If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}.
 
