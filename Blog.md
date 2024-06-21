@@ -17,6 +17,6 @@ Here, I share my insights, research findings, and thoughts on various topics. Fe
 
 ## Future Articles
 
-Stay tuned for more articles coming soon! I plan to update this section regularly with new content. If you have any topics you'd like me to cover, feel free to let me know.
+Stay tuned for more articles coming soon! I plan to update this section regularly with new content. If you have any topics you'd like me to cover, feel free to let me know. In the meantime, check out some other articles on [R-bloggers](https://www.r-bloggers.com/).
 
 [back](./)
