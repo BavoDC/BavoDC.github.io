@@ -1,3 +1,7 @@
+---
+tags: [R]
+---
+
 <!DOCTYPE html>
 
 <html>
@@ -12,6 +16,10 @@
 <meta name="author" content="Bavo D.C. Campo" />
 
 <meta name="date" content="2024-06-17" />
+
+<meta name="description" content="R"/>
+<link rel="alternate" type="application/rss+xml" title="Improving your productivity" href="/feed.rbloggers.xml">
+
 
 <title>Improving your productivity</title>
 
@@ -243,7 +251,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
 { counter-reset: source-line 0; }
@@ -485,7 +493,7 @@ following block of code, we take a sample of 10 000 000 from a normal
 distribution using the <code>rnorm</code> function and assign it to the
 object <code>x</code>.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a>x <span class="sc">%&lt;=%</span> <span class="fu">rnorm</span>(<span class="fl">1e7</span>)</span></code></pre></div>
-<pre><code>## [1] &quot;8B263209&quot;</code></pre>
+<pre><code>## [1] &quot;494FCE56&quot;</code></pre>
 <p>When you run this code, the job ID will be printed in your console.
 Once the code has been executed in the background, the value of the
 right-hand side (i.e., <code>rnorm(1e7)</code>) will be assigned to the
@@ -509,7 +517,7 @@ all of the objects created on the right-hand side of the
 <span id="cb5-8"><a href="#cb5-8" tabindex="-1"></a>  ys   <span class="ot">=</span> y[i]</span>
 <span id="cb5-9"><a href="#cb5-9" tabindex="-1"></a>  Bhat <span class="ot">=</span> <span class="fu">solve</span>(<span class="fu">t</span>(Xs) <span class="sc">%*%</span> Xs) <span class="sc">%*%</span> <span class="fu">t</span>(Xs) <span class="sc">%*%</span> ys</span>
 <span id="cb5-10"><a href="#cb5-10" tabindex="-1"></a>})</span></code></pre></div>
-<pre><code>## [1] &quot;89371366&quot;</code></pre>
+<pre><code>## [1] &quot;C4EAEB74&quot;</code></pre>
 <p>The example above show the first way to use the operator. Here, we
 enclose the operator with backticks <code>`%{}%`</code> and we enclose
 the right-hand side with round and curly brackets
@@ -525,7 +533,7 @@ the right-hand side with round and curly brackets
 <span id="cb7-8"><a href="#cb7-8" tabindex="-1"></a>  ys   <span class="ot">=</span> y[i]</span>
 <span id="cb7-9"><a href="#cb7-9" tabindex="-1"></a>  Bhat <span class="ot">=</span> <span class="fu">solve</span>(<span class="fu">t</span>(Xs) <span class="sc">%*%</span> Xs) <span class="sc">%*%</span> <span class="fu">t</span>(Xs) <span class="sc">%*%</span> ys</span>
 <span id="cb7-10"><a href="#cb7-10" tabindex="-1"></a>}</span></code></pre></div>
-<pre><code>## [1] &quot;ACD083F1&quot;</code></pre>
+<pre><code>## [1] &quot;87EF0A97&quot;</code></pre>
 <p>Here, we can include <code>NULL</code> on the left-hand side since
 nothing will get assigned to the left-hand side. Currently, I haven’t
 found a more elegant way to define the operator.</p>
@@ -547,7 +555,7 @@ the code.</p>
 <span id="cb10-10"><a href="#cb10-10"></a>##     stop(&quot;Temporary R script not created&quot;)</span>
 <span id="cb10-11"><a href="#cb10-11"></a>##   jobRunScript(tmpR, exportEnv = &quot;R_GlobalEnv&quot;, importEnv = TRUE)</span>
 <span id="cb10-12"><a href="#cb10-12"></a>## }</span>
-<span id="cb10-13"><a href="#cb10-13"></a>## &lt;bytecode: 0x0000026d97094490&gt;</span>
+<span id="cb10-13"><a href="#cb10-13"></a>## &lt;bytecode: 0x000001fad4d37648&gt;</span>
 <span id="cb10-14"><a href="#cb10-14"></a>## &lt;environment: namespace:CalibrationCurves&gt;</span></code></pre></div>
 <p>Here’s what happens on each line of code:</p>
 <ol start="3" style="list-style-type: decimal">
@@ -592,13 +600,8 @@ of the operator.</p>
 ##     stop(&quot;Temporary R script not created&quot;)
 ##   jobRunScript(tmpR, exportEnv = &quot;R_GlobalEnv&quot;, importEnv = TRUE)
 ## }
-## &lt;bytecode: 0x0000026d998a6f48&gt;
+## &lt;bytecode: 0x000001fad5bc1ed0&gt;
 ## &lt;environment: namespace:CalibrationCurves&gt;</code></pre>
-</div>
-</div>
-
-
-
 
 </div>
 
