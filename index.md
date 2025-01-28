@@ -33,11 +33,56 @@ clinical prediction models.
 # Work experience
 A detailed overview of my work experience and skills is given in my CV, which you can access via this [link](./CV/CurriculumVitaeCampoBavoGeneral.pdf). If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}.
 
+<style>
+  tr {
+    display: table-row;
+    margin-bottom: 100px;
+  }
+</style>
 <!--  Work experience: desktop version -->
 <table id="desktop-only" style="text-align: left; width: 100%;border:0;table-layout:fixed">
   <col width="25%" />
   <col width="75%" />
   <tbody>
+  <tr>
+   <td style="border:0">
+     Oct 2023 - Present
+     </td>
+     <td style="border:0">
+     <b>Risk Officer</b>
+     </td>
+   </tr>
+  <tr>
+    <td style="border:0">
+    <a href="https://www.ageas.com/" target="_blank"><img src="/img/Ageas.png" width="80px" height="75px"/></a>
+    </td>
+    <td style="border:0">
+    Valuation Non-Life Risk<br>
+    Ageas
+    </td>
+  </tr>
+  <tr>
+    <td style="border:0">
+    </td>
+    <td style="border:0">
+    <details>
+      <summary><i>Projects (click to open):</i></summary>
+      <br>
+      Currently, I drive the development and implementation of the internal models dedicated to external reinsurance, using stochastic simulations to analyze and simulate losses. My role involves understanding treaty structures and incorporating pricing insights to evaluate and optimize reinsurance strategies.
+      <br><br>
+
+      Alongside my focus on external reinsurance modeling, my role extends to the following key responsibilities:
+      <ul max-width=70px>
+      <li>automating internal model processes: managing the automation of internal model processes and runs, streamlining operations for enhanced efficiency;</li>
+       <li>methodology evaluation and enhancement: thoroughly examining and challenging existing methodologies, whilst developing and implementing alternative methods to drive continuous improvement;</li>
+       <li>guiding tool development: comprehensive testing and guiding the development of internal model tools, ensuring robustness and reliability;</li>
+       <li>tool deployment and testing: leading the development and deployment of tools for testing the models, facilitating thorough evaluation and validation of model outcomes;</li>
+      <li>documentation management: ensuring comprehensive documentation of processes and procedures as well as of the implementations, fostering transparency and accountability across all operations.</li>
+      </ul>
+    </details>
+    </td>
+  </tr>
+  <tr style="height: 50px;"></tr>
   <tr>
     <td style="border:0">
       July 2024 - Present
@@ -62,45 +107,12 @@ A detailed overview of my work experience and skills is given in my CV, which yo
       <td style="border:0">
       <details>
       	<summary><i>Projects (click to open):</i></summary>
+        <br>
       	I am in charge of all aspects of the analysis, including data management, designing and performing the analysis, compiling and interpreting the results, and ultimately preparing a report and a publishable article.
       </details>
       </td>
     </tr>
-  <tr>
-    <td style="border:0">
-      Oct 2023 - Present
-      </td>
-      <td style="border:0">
-      <b>Risk Officer</b>
-      </td>
-    </tr>
-    <tr>
-      <td style="border:0">
-      <a href="https://www.ageas.com/" target="_blank"><img src="/img/Ageas.png" width="80px" height="75px"/></a>
-      </td>
-      <td style="border:0">
-      Valuation Non-Life Risk<br>
-      Ageas
-      </td>
-    </tr>
-    <tr>
-      <td style="border:0">
-      </td>
-      <td style="border:0">
-      <details>
-      	<summary><i>Projects (click to open):</i></summary>
-      	I contribute to the ongoing success of the organization by optimizing risk assessment frameworks, enhancing operational efficiency, and            driving strategic decision-making. Drawing on my methodological expertise, I continuously refine, improve, and challenge existing                  processes. My responsibilities include:
-        <ul max-width=70px>
-        <li>automating internal model processes: managing the automation of internal model processes and runs, streamlining operations for enhanced         efficiency;</li>
-        <li>methodology evaluation and enhancement: thoroughly examining and challenging existing methodologies, whilst developing and implementing         alternative methods to drive continuous improvement;</li>
-        <li>guiding tool development: comprehensive testing and guiding the development of internal model tools, ensuring robustness and                   reliability;</li>
-        <li>tool deployment and testing: leading the development and deployment of tools for testing the models, facilitating thorough evaluation          and validation of model outcomes;</li>
-        <li>implementation of external reinsurance model: implementing the external reinsurance model, optimizing risk management strategies for           the organization;</li>
-        <li>documentation management: ensuring comprehensive documentation of processes and procedures as well as of the implementations, fostering         transparency and accountability across all operations.</li>
-        </ul>
-      </details>
-      </td>
-    </tr>
+    <tr style="height: 50px;"></tr>
     <tr>
       <td style="border:0">
       Oct 2019 - Sep 2023
@@ -124,6 +136,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
       <td style="border:0">
       <details>
         <summary><i>Projects (click to open):</i></summary>
+        <br>
         During my time at a Belgian insurance company, I contributed to the success of key projects by leveraging data analysis, predictive modeling, and software development to support strategic decision-making and operational efficiency.
         <ul max-width=70px>
         <li>Translated the company's research questions into an analysis plan and presented the results in a clear and concise manner to all stakeholders;</li>
@@ -133,6 +146,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
       </details>
       </td>
     </tr>
+    <tr style="height: 50px;"></tr>
     <tr>
       <td style="border:0">
       Oct 2019 - Sep 2023
@@ -157,6 +171,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
       <td style="border:0">
       <details>
       	<summary><i>Projects (click to open):</i></summary>
+        <br>
         My PhD was part of a collaboration between the KU Leuven and a Belgian insurance company. I took responsibility for translating the insurance company's research question into an analysis plan as well as for planning, organizing, programming, executing and analyzing the research. Further, I communicated the research findings in a clear and concise way to the company at regular intervals. The main projects that I worked on are:
         <ul max-width=70px>
           <li>workers' compensation insurance:
@@ -174,6 +189,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
       </details>
       </td>
     </tr>
+    <tr style="height: 50px;"></tr>
     <tr>
       <td style="border:0">
       Feb 2015 - Sep 2018
@@ -198,6 +214,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
       <td style="border:0">
       <details>
       	<summary><i>Projects (click to open):</i></summary>
+        <br>
         I was part of the statistical unit of the IOTA group. I conducted the statistical analyses, documented, presented and discussed the results with the multidisciplinary team. Additionally, I took responsibility for managing and encrypting the databases as well as for developing (statistical) software to facilitate our research. I worked on numerous projects, which can best be summarized as follows:
         <ul max-width=70px>
           <li>clinical research:
@@ -230,6 +247,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
       </details>
       </td>
     </tr>
+    <tr style="height: 50px;"></tr>
     <tr>
       <td style="border:0">
       Mar 2016 - Apr 2019
@@ -254,10 +272,12 @@ A detailed overview of my work experience and skills is given in my CV, which yo
       <td style="border:0">
       <details>
       	<summary><i>Projects (click to open):</i></summary>
+        <br>
         I worked as a consulting statistical researcher on (confidential) projects for the private sector. My main tasks were to perform the statistical analysis and to report the research findings to the company.
       </details>
       </td>
     </tr>
+    <tr style="height: 50px;"></tr>
   </tbody>
 </table>
 
@@ -266,6 +286,43 @@ A detailed overview of my work experience and skills is given in my CV, which yo
   <col width="35%" />
   <col width="65%" />
   <tbody>
+  <tr>
+   <td style="border:0;">
+     Oct 2023 - Present
+     </td>
+     <td style="border:0">
+     <b>Risk Officer</b>
+     </td>
+   </tr>
+   <tr>
+     <td style="border:0">
+     <a href="https://www.ageas.com/" target="_blank"><img src="/img/Ageas.png" width="80px" height="75px"/></a>
+     </td>
+     <td style="border:0">
+     Valuation Non-Life Risk<br>
+     Ageas
+     </td>
+   </tr>
+   <tr>
+     <td colspan="2" style="border:0">
+     <details>
+       <summary><i>Projects (click to open):</i></summary>
+       <br>
+       Currently, I drive the development and implementation of the internal models dedicated to external reinsurance, using stochastic simulations to analyze and simulate losses. My role involves understanding treaty structures and incorporating pricing insights to evaluate and optimize reinsurance strategies.
+       <br><br>
+
+       Alongside my focus on external reinsurance modeling, my role extends to the following key responsibilities:
+       <ul max-width=70px>
+       <li>automating internal model processes: managing the automation of internal model processes and runs, streamlining operations for enhanced efficiency;</li>
+        <li>methodology evaluation and enhancement: thoroughly examining and challenging existing methodologies, whilst developing and implementing alternative methods to drive continuous improvement;</li>
+        <li>guiding tool development: comprehensive testing and guiding the development of internal model tools, ensuring robustness and reliability;</li>
+        <li>tool deployment and testing: leading the development and deployment of tools for testing the models, facilitating thorough evaluation and validation of model outcomes;</li>
+       <li>documentation management: ensuring comprehensive documentation of processes and procedures as well as of the implementations, fostering transparency and accountability across all operations.</li>
+       </ul>
+     </details>
+     </td>
+   </tr>
+   <tr style="height: 50px;"></tr>
   <tr>
     <td style="border:0">
       July 2024 - Present
@@ -288,43 +345,11 @@ A detailed overview of my work experience and skills is given in my CV, which yo
       <td colspan="2" style="border:0">
       <details>
        <summary><i>Projects (click to open):</i></summary>
-       I am in charge of all aspects of the analysis, including data management, designing and performing the analysis, compiling and interpreting the results, and ultimately preparing a report and a publishable article.
+       I am in charge of all aspects of the statistical analysis, including data management, designing and performing the analysis, compiling and interpreting the results, and ultimately preparing a report and a publishable article.
       </details>
       </td>
     </tr>
-   <tr>
-    <td style="border:0">
-      Oct 2023 - Present
-      </td>
-      <td style="border:0">
-      <b>Risk Officer</b>
-      </td>
-    </tr>
-    <tr>
-      <td style="border:0">
-      <a href="https://www.ageas.com/" target="_blank"><img src="/img/Ageas.png" width="80px" height="75px"/></a>
-      </td>
-      <td style="border:0">
-      Valuation Non-Life Risk<br>
-      Ageas
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" style="border:0">
-      <details>
-      	<summary><i>Projects (click to open):</i></summary>
-      	I contribute to the ongoing success of the organization by optimizing risk assessment frameworks, enhancing operational efficiency, and            driving strategic decision-making. Drawing on my methodological expertise, I continuously refine, improve, and challenge existing                  processes. My responsibilities include:
-        <ul max-width=70px>
-        <li>automating internal model processes: managing the automation of internal model processes and runs, streamlining operations for enhanced         efficiency;</li>
-        <li>methodology evaluation and enhancement: thoroughly examining and challenging existing methodologies, whilst developing and implementing         alternative methods to drive continuous improvement;</li>
-        <li>guiding tool development: comprehensive testing and guiding the development of internal model tools, ensuring robustness and                   reliability;</li>
-        <li>tool deployment and testing: leading the development and deployment of tools for testing the models, facilitating thorough evaluation          and validation of model outcomes;</li>
-        <li>implementation of external reinsurance model: implementing the external reinsurance model, optimizing risk management strategies for           the organization;</li>
-        <li>documentation management: ensuring comprehensive documentation of processes and procedures as well as of the implementations, fostering         transparency and accountability across all operations.</li>
-        </ul>
-      </details>
-      </td>
-    </tr>
+    <tr style="height: 50px;"></tr>
     <tr>
       <td style="border:0">
       Oct 2019 - Sep 2023
@@ -343,9 +368,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
       </td>
     </tr>
     <tr>
-      <td style="border:0">
-      </td>
-      <td style="border:0">
+      <td colspan="2" style="border:0">
       <details>
         <summary><i>Projects (click to open):</i></summary>
         During my time at a Belgian insurance company, I contributed to the success of key projects by leveraging data analysis, predictive modeling, and software development to support strategic decision-making and operational efficiency.
@@ -357,6 +380,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
       </details>
       </td>
     </tr>
+    <tr style="height: 50px;"></tr>
     <tr>
       <td style="border:0">
       Oct 2019 - Sep 2023
@@ -396,6 +420,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
       </details>
       </td>
     </tr>
+    <tr style="height: 50px;"></tr>
     <tr>
       <td style="border:0">
       Feb 2015 - Sep 2018
@@ -450,6 +475,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
       </details>
       </td>
     </tr>
+    <tr style="height: 50px;"></tr>
     <tr>
       <td style="border:0">
       Mar 2016 - Apr 2019
@@ -476,6 +502,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
       </details>
       </td>
     </tr>
+    <tr style="height: 50px;"></tr>
   </tbody>
 </table>
 
