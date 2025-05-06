@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.rbloggers.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-28T14:00:58+01:00</updated><id>http://localhost:4000/feed.rbloggers.xml</id><title type="html">[“Bavo D.C. Campo”]</title><subtitle>[&quot;Hi there! Welcome to my page.&quot;]</subtitle><entry><title type="html">Customizing R using the Rprofile file</title><link href="http://localhost:4000/2024/12/12/Customizing-R-using-the-Rprofile-file.html" rel="alternate" type="text/html" title="Customizing R using the Rprofile file" /><published>2024-12-12T00:00:00+01:00</published><updated>2024-12-12T00:00:00+01:00</updated><id>http://localhost:4000/2024/12/12/Customizing%20-R%20using%20the%20-Rprofile%20file</id><content type="html" xml:base="http://localhost:4000/2024/12/12/Customizing-R-using-the-Rprofile-file.html"><![CDATA[<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.rbloggers.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-06T20:24:50+02:00</updated><id>http://localhost:4000/feed.rbloggers.xml</id><title type="html">[“Bavo D.C. Campo”]</title><subtitle>[&quot;Hi there! Welcome to my page.&quot;]</subtitle><entry><title type="html">Podcast on insurance fraud detection</title><link href="http://localhost:4000/2025/05/06/Podcast-on-insurance-fraud-detection.html" rel="alternate" type="text/html" title="Podcast on insurance fraud detection" /><published>2025-05-06T00:00:00+02:00</published><updated>2025-05-06T00:00:00+02:00</updated><id>http://localhost:4000/2025/05/06/Podcast%20on%20insurance%20fraud%20detection</id><content type="html" xml:base="http://localhost:4000/2025/05/06/Podcast-on-insurance-fraud-detection.html"><![CDATA[<h2>Podcast Feature: Insurance Fraud Detection</h2>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6AcRLRuOW1jUyn0FO7VnVF?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<p>I was recently invited to speak on the <em>Data Skeptic</em> podcast about my research on fraud detection. It was a great experience, complete with a few pre-recording jitters,
+  where I got to discuss our <a href="https://link.springer.com/article/10.1007/s13385-024-00399-z">paper</a> on <strong>simulating network-based insurance fraud data</strong>.</p>
+
+<p>We developed a simulation engine that mimics the characteristics of real-world insurance fraud network data. It allows researchers to experiment with different fraud patterns,
+  levels of class imbalance, and network structures - all without relying on sensitive or hard-to-access data. This enables a more robust development and evaluation of fraud detection
+   techniques.
+</p>
+
+The conversation covered a lot of ground, but two questions stuck with me. I wish I had answered them better. So here is a quick follow-up:
+<h3>1. What is Actuarial Science and what career options are there?</h3>
+<p>Actuarial science applies mathematics, statistics, and financial theory to assess risk, mostly in insurance, pensions, and finance. Actuaries work on product design, pricing, and
+  risk management, and increasingly also in data science. Career paths include roles in insurance, consulting and tech-driven analytics.
+</p>
+
+<h3>2. What are neighborhood and fraud-score based features?</h3>
+<ul>
+  <li>Neighborhood-based features: describe the network structure, e.g. how connected a claim is to known fraudsters.</li>
+  <li>Fraud-score based features: capture the predicted fraud risk of a node and its surroundings.</li>
+</ul>
+
+<p>Also, during the episode I briefly touched on class imbalance and its implications for logistic regression. I wanted to share some excellent references I have come across:</p>
+<ul>
+  <li><a href="https://link.springer.com/article/10.1007/s11004-010-9311-8">Oomen 2010</a> – Sampling Bias and Class Imbalance in Maximum-likelihood Logistic Regression;</li>
+  <li><a href="https://www.jstor.org/stable/24501032?seq=1">Marques 2013</a> – On the suitability of resampling techniques for the class imbalance problem in credit scoring;</li>
+  <li><a href="https://pubmed.ncbi.nlm.nih.gov/35686364/ ">Goorbergh 2022</a> – The harm of class imbalance corrections for risk prediction models: illustration and simulation using logistic regression.</li>
+</ul>
+
+<h3>Other Resources</h3>
+<ul>
+  <li><a href="https://link.springer.com/article/10.1007/s13385-024-00399-z">📄 Full Paper</a></li>
+  <li><a href="https://github.com/BavoDC/iFraudSimulator">📦 R Package on GitHub</a></li>
+</ul>
+
+<p><a href="https://dataskeptic.com/blog/episodes/2025/fraud-networks">🎧 Podcast Episode Link</a> (Also on Apple, Google, and Spotify)</p>
+
+<p>Grateful to Kyle Polich for the invite to the podcast!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Podcast Feature: Insurance Fraud Detection I was recently invited to speak on the Data Skeptic podcast about my research on fraud detection. It was a great experience, complete with a few pre-recording jitters, where I got to discuss our paper on simulating network-based insurance fraud data.]]></summary></entry><entry><title type="html">Customizing R using the Rprofile file</title><link href="http://localhost:4000/2024/12/12/Customizing-R-using-the-Rprofile-file.html" rel="alternate" type="text/html" title="Customizing R using the Rprofile file" /><published>2024-12-12T00:00:00+01:00</published><updated>2024-12-12T00:00:00+01:00</updated><id>http://localhost:4000/2024/12/12/Customizing%20-R%20using%20the%20-Rprofile%20file</id><content type="html" xml:base="http://localhost:4000/2024/12/12/Customizing-R-using-the-Rprofile-file.html"><![CDATA[<!DOCTYPE html>
 
 <html>
 
