@@ -3,11 +3,11 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"../../../AppData/Local/Temp/jekyll-remote-theme-20250506-23340-lc29u4/_sass/cayman.scss",
-		"../../../AppData/Local/Temp/jekyll-remote-theme-20250506-23340-lc29u4/_sass/jekyll-theme-cayman.scss",
-		"../../../AppData/Local/Temp/jekyll-remote-theme-20250506-23340-lc29u4/_sass/normalize.scss",
-		"../../../AppData/Local/Temp/jekyll-remote-theme-20250506-23340-lc29u4/_sass/rouge-github.scss",
-		"../../../AppData/Local/Temp/jekyll-remote-theme-20250506-23340-lc29u4/_sass/variables.scss"
+		"../../../AppData/Local/Temp/jekyll-remote-theme-20250526-5900-3cvuv1/_sass/cayman.scss",
+		"../../../AppData/Local/Temp/jekyll-remote-theme-20250526-5900-3cvuv1/_sass/jekyll-theme-cayman.scss",
+		"../../../AppData/Local/Temp/jekyll-remote-theme-20250526-5900-3cvuv1/_sass/normalize.scss",
+		"../../../AppData/Local/Temp/jekyll-remote-theme-20250526-5900-3cvuv1/_sass/rouge-github.scss",
+		"../../../AppData/Local/Temp/jekyll-remote-theme-20250526-5900-3cvuv1/_sass/variables.scss"
 	],
 	"sourcesContent": [
 		"@import \"cayman\";\n.mbtablestyle {\n   border-collapse: collapse;\n   > table, td, th {\n        border: 1px solid white;\n        }\n}\n\n#photome {\n  width: 15%;\n  float: left;\n}\n\n.fa.fa-linkedin:hover{\n  transform: scale(1.2)\n}\n\n.fa.fa-envelope:hover{\n  transform: scale(1.2)\n}\n\n.fa.fa-github:hover{\n  transform: scale(1.2)\n}\n\ndiv {\n  width: 200px;\n}\n\nul {\n  list-style-type: \"- \";\n  list-style-position: inside;\n  padding-left: 0px;\n}\n\n.square {\n   list-style-type: square;\n   list-style-position: outside;\n}\n\n\ndetails > summary {\n  padding: 2px 6px;\n  width: 50%;\n  background-color: #cceeff;\n  border: none;\n  box-shadow: 3px 3px 4px black;\n  cursor: pointer;\n}\n\ndetails > p {\n  border-radius: 0 0 10px 10px;\n  background-color: #ddd;\n  padding: 2px 6px;\n  margin: 0;\n  box-shadow: 3px 3px 4px black;\n}\n\ndetails[open] > summary {\n  background-color: #0077b3;\n  color: white;\n}\n\n#mobile-only{display:none}\n#desktop-only{display:block}\n\n// Mobile only\n@media (max-width: 600px){\n  #photome {\n    width: 30%;\n  }\n  #mobile-only {\n    display:block;\n  }\n  #desktop-only {\n    display: none;\n  }\n  details > summary {\n    padding: 2px 6px;\n    width: 100%;\n    background-color: #cceeff;\n    border: none;\n    box-shadow: 3px 3px 4px black;\n    cursor: pointer;\n  }\n}\n",

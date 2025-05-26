@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.rbloggers.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-06T20:24:50+02:00</updated><id>http://localhost:4000/feed.rbloggers.xml</id><title type="html">[“Bavo D.C. Campo”]</title><subtitle>[&quot;Hi there! Welcome to my page.&quot;]</subtitle><entry><title type="html">Podcast on insurance fraud detection</title><link href="http://localhost:4000/2025/05/06/Podcast-on-insurance-fraud-detection.html" rel="alternate" type="text/html" title="Podcast on insurance fraud detection" /><published>2025-05-06T00:00:00+02:00</published><updated>2025-05-06T00:00:00+02:00</updated><id>http://localhost:4000/2025/05/06/Podcast%20on%20insurance%20fraud%20detection</id><content type="html" xml:base="http://localhost:4000/2025/05/06/Podcast-on-insurance-fraud-detection.html"><![CDATA[<h2>Podcast Feature: Insurance Fraud Detection</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.rbloggers.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-26T20:32:32+02:00</updated><id>http://localhost:4000/feed.rbloggers.xml</id><title type="html">[“Bavo D.C. Campo”]</title><subtitle>[&quot;Hi there! Welcome to my page.&quot;]</subtitle><entry><title type="html">Podcast and seminar on insurance fraud detection</title><link href="http://localhost:4000/2025/05/06/Podcast-and-seminar-on-insurance-fraud-detection.html" rel="alternate" type="text/html" title="Podcast and seminar on insurance fraud detection" /><published>2025-05-06T00:00:00+02:00</published><updated>2025-05-06T00:00:00+02:00</updated><id>http://localhost:4000/2025/05/06/Podcast%20and%20seminar%20on%20insurance%20fraud%20detection</id><content type="html" xml:base="http://localhost:4000/2025/05/06/Podcast-and-seminar-on-insurance-fraud-detection.html"><![CDATA[<h2>Podcast Feature: Insurance Fraud Detection</h2>
+
+<h3>Data Skeptic Podcast</h3>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6AcRLRuOW1jUyn0FO7VnVF?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <p>I was recently invited to speak on the <em>Data Skeptic</em> podcast about my research on fraud detection. It was a great experience, complete with a few pre-recording jitters,
   where I got to discuss our <a href="https://link.springer.com/article/10.1007/s13385-024-00399-z">paper</a> on <strong>simulating network-based insurance fraud data</strong>.</p>
@@ -9,12 +11,12 @@
 </p>
 
 The conversation covered a lot of ground, but two questions stuck with me. I wish I had answered them better. So here is a quick follow-up:
-<h3>1. What is Actuarial Science and what career options are there?</h3>
+<h4>1. What is Actuarial Science and what career options are there?</h4>
 <p>Actuarial science applies mathematics, statistics, and financial theory to assess risk, mostly in insurance, pensions, and finance. Actuaries work on product design, pricing, and
   risk management, and increasingly also in data science. Career paths include roles in insurance, consulting and tech-driven analytics.
 </p>
 
-<h3>2. What are neighborhood and fraud-score based features?</h3>
+<h4>2. What are neighborhood and fraud-score based features?</h4>
 <ul>
   <li>Neighborhood-based features: describe the network structure, e.g. how connected a claim is to known fraudsters.</li>
   <li>Fraud-score based features: capture the predicted fraud risk of a node and its surroundings.</li>
@@ -27,7 +29,7 @@ The conversation covered a lot of ground, but two questions stuck with me. I wis
   <li><a href="https://pubmed.ncbi.nlm.nih.gov/35686364/ ">Goorbergh 2022</a> – The harm of class imbalance corrections for risk prediction models: illustration and simulation using logistic regression.</li>
 </ul>
 
-<h3>Other Resources</h3>
+<h4>Other Resources</h4>
 <ul>
   <li><a href="https://link.springer.com/article/10.1007/s13385-024-00399-z">📄 Full Paper</a></li>
   <li><a href="https://github.com/BavoDC/iFraudSimulator">📦 R Package on GitHub</a></li>
@@ -35,7 +37,14 @@ The conversation covered a lot of ground, but two questions stuck with me. I wis
 
 <p><a href="https://dataskeptic.com/blog/episodes/2025/fraud-networks">🎧 Podcast Episode Link</a> (Also on Apple, Google, and Spotify)</p>
 
-<p>Grateful to Kyle Polich for the invite to the podcast!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Podcast Feature: Insurance Fraud Detection I was recently invited to speak on the Data Skeptic podcast about my research on fraud detection. It was a great experience, complete with a few pre-recording jitters, where I got to discuss our paper on simulating network-based insurance fraud data.]]></summary></entry><entry><title type="html">Customizing R using the Rprofile file</title><link href="http://localhost:4000/2024/12/12/Customizing-R-using-the-Rprofile-file.html" rel="alternate" type="text/html" title="Customizing R using the Rprofile file" /><published>2024-12-12T00:00:00+01:00</published><updated>2024-12-12T00:00:00+01:00</updated><id>http://localhost:4000/2024/12/12/Customizing%20-R%20using%20the%20-Rprofile%20file</id><content type="html" xml:base="http://localhost:4000/2024/12/12/Customizing-R-using-the-Rprofile-file.html"><![CDATA[<!DOCTYPE html>
+<p>Grateful to Kyle Polich for the invite to the podcast!</p>
+
+
+<h3> EAJ Online Seminar Presentation</h3>
+<p>Shortly after the podcast release, I had the opportunity to present our work in a <strong>live online seminar</strong> hosted by the <em>European Actuarial Journal</em> (EAJ). In this session, I focused on a key aspect we did not fully explore in the podcast: the <strong>data-generating process</strong> underlying our simulation engine.</p>
+<p>My talk begins at <strong>17:50</strong> in the recording and provides a deeper walkthrough of the engine's design and implementation, especially useful for those interested in <strong>synthetic data generation</strong> and <strong>fraud detection modeling</strong>.</p>
+
+<iframe src="https://cassyni.com/embed/events/5nWReUx4EfSukVyyaqLwY9" title="Presentation of EAJ Issue 15/1 - 19 May 2025 - presented by Anja Schmiedt and Bavo D.C. Campo and Fallou Niakh and Oussama Belhouari and Ralf Korn and Sebastián Calcetero Vanegas and Selim Gatti (Cassyni)" style="width:100%;height:100%;aspect-ratio:16/9;max-width:100%;overflow:hidden;border:none" allow="fullscreen; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" width="560" height="315"></iframe>]]></content><author><name></name></author><summary type="html"><![CDATA[Podcast Feature: Insurance Fraud Detection]]></summary></entry><entry><title type="html">Customizing R using the Rprofile file</title><link href="http://localhost:4000/2024/12/12/Customizing-R-using-the-Rprofile-file.html" rel="alternate" type="text/html" title="Customizing R using the Rprofile file" /><published>2024-12-12T00:00:00+01:00</published><updated>2024-12-12T00:00:00+01:00</updated><id>http://localhost:4000/2024/12/12/Customizing%20-R%20using%20the%20-Rprofile%20file</id><content type="html" xml:base="http://localhost:4000/2024/12/12/Customizing-R-using-the-Rprofile-file.html"><![CDATA[<!DOCTYPE html>
 
 <html>
 
