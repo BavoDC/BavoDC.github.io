@@ -21,6 +21,26 @@ show_social_links: true
     //display the calculated age  
     //document.write(age);  
 </script>
+
+I am a senior actuarial data scientist and statistician with over a decade of experience bridging statistical and 
+machine learning techniques to solve complex real-world problems. My expertise lies in the construction, validation,
+and application of predictive models across insurance, reinsurance, and biomedical domains.
+
+Currently, I lead the development and implementation of internal models for external reinsurance, applying stochastic simulations
+to analyze loss distributions and inform strategic decision-making. My work requires a deep understanding of treaty structures, 
+pricing, and optimal reinsurance strategies. Beyond model development, I focus on process automation, data quality,
+methodological innovation, and tool development, ensuring efficient and robust actuarial modeling practices.
+
+Previously, I did a PhD in Actuarial Science at the KU Leuven, under the supervision of professor dr.
+[Katrien Antonio](https://katrienantonio.github.io/){:target="_blank"}. I combined my PhD with hands-on industry experience 
+as a senior data scientist at a Belgian insurance company, where I translated business needs
+into data-driven solutions. In this dual role, I redesigned the workers' compensation pricing model
+which has since been implemented in production, developed clustering and NLP-based algorithms for reducing complex structured data,
+and built a simulation engine for synthetic data generation. My doctoral research focused on predictive modeling techniques in
+actuarial science, evaluating both statistical and machine learning methods, and developing fraud detection models using social
+network features. My PhD thesis can be accessed [here](./Thesis/DoctoralThesis_BavoDCCampo.pdf).
+
+<!--
 I am a data scientist and a statistician, who tries to combine the best of two worlds. I have over <script>document.write(age);</script> years of experience and my area of expertise lies in the construction and validation of predictive models. I also have experience in other research areas, such as clustering and assessing the agreement or reliability of repeated measurements. Further, I am proficient in and have a passion for programming (especially in R). I love to immerse myself in new research projects, which require me to solve complex problems and to analyze the data thoroughly. Tackling new, unfamiliar challenges is something I look forward to as it allows me to grow and develop new knowledge and new skills.
 
 I did my PhD in Actuarial Science at the KU Leuven, under the supervision of professor dr [Katrien Antonio](https://katrienantonio.github.io/){:target="_blank"}. My research focused on the development and evaluation of predictive modeling techniques within actuarial science. In my research, I assessed the performance of both statistical and machine learning methods. Another part of my research focused on the development of fraud detection models using social network features. Here, I examined both the methodological and practical part. If you want to read my PhD thesis, you can do so by clicking on this [link](./Thesis/DoctoralThesis_BavoDCCampo.pdf).
@@ -29,6 +49,7 @@ Before my PhD, I worked as a biostatistian in the International Ovarian Tumor An
 team of researchers connected to UZ Leuven and KU Leuven. I worked on numerous projects, which provided me with a firm and solid
 basis in biostatistics. Furthermore, my main research projects focused on the development and validation of
 clinical prediction models.
+-->
 
 # Work experience
 A detailed overview of my work experience and skills is given in my CV, which you can access via this [link](./CV/CurriculumVitaeCampoBavoGeneral.pdf). If you are interested in my publications, click on this [link](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}.
@@ -49,7 +70,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
      Oct 2023 - Present
      </td>
      <td style="border:0">
-     <b>Risk Officer</b>
+     <b>Senior Actuarial Data Scientist</b>
      </td>
    </tr>
   <tr>
@@ -291,7 +312,7 @@ A detailed overview of my work experience and skills is given in my CV, which yo
      Oct 2023 - Present
      </td>
      <td style="border:0">
-     <b>Risk Officer</b>
+     <b>Senior Actuarial Data Scientist</b>
      </td>
    </tr>
    <tr>
