@@ -1,7 +1,48 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+/* Forty Jekyll Theme - Custom Overrides */
+
+/* Add padding to main content areas */
+.inner {
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+body {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+#main {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 100% !important;
+}
+
+.main-content {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+section {
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+}
+
+article {
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+}
+
+.wrapper {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .mbtablestyle {
    border-collapse: collapse;
    > table, td, th {
@@ -26,9 +67,6 @@
   transform: scale(1.2)
 }
 
-div {
-  width: 200px;
-}
 
 ul {
   list-style-type: "- ";
@@ -64,11 +102,32 @@ details[open] > summary {
   color: white;
 }
 
+/* Banner background image */
+#banner {
+  background-image: url("../images/Homepage.png") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  height: auto !important;
+  min-height: 60vh !important;
+}
+
 #mobile-only{display:none}
 #desktop-only{display:block}
 
 // Mobile only
 @media (max-width: 600px){
+  #main {
+    padding: 0 15px !important;
+  }
+  .inner, .main-content, .wrapper, section, article {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  body {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   #photome {
     width: 30%;
   }

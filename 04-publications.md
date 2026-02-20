@@ -1,24 +1,28 @@
 ---
-layout: default
-title: Publications
-description: My contributions to research
+layout: page
+title: Publications & Research
+description: Research Articles and Books
+image: assets/images/researchGenerated.png
+nav-menu: true
+show_tile: true
+permalink: /Publications/
 ---
-For an overview of my list of publications, you can click this <a href="https://lirias.kuleuven.be/cv?Username=U0095171" target="_blank">link</a> to visit my profile on the KU Leuven research database. This page includes a comprehensive list of my research articles, conference papers, and other scholarly works. You can also visit my website on [Researchgate](https://www.researchgate.net/profile/Bavo-De-Cock){:target="_blank"} to get an overview of my academic work.
+## Research Profile
 
+For a comprehensive overview of my research contributions, you can visit my profile on the [KU Leuven research database](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}. You can also find my work on [ResearchGate](https://www.researchgate.net/profile/Bavo-De-Cock){:target="_blank"}. If you are interested in my PhD thesis on hierarchical and network data in predictive modeling, you can download it [here](./Thesis/DoctoralThesis_BavoDCCampo.pdf).
 
-You can also download my PhD thesis directly using this [link](./Thesis/DoctoralThesis_BavoDCCampo.pdf). My doctoral research focused on the use of hierarchical and network data in predictive modeling.
+## Selected Publications
 
-Below are a few highlights from my recent publications:
-
+### Peer-Reviewed Articles
+ - <strong><a href="https://www.cambridge.org/core/journals/research-synthesis-methods/article/clustered-flexible-calibration-plots-for-binary-outcomes-using-random-effects-modeling/FE857DCCAD4A37B60EF819F26B2F9411" target="_blank">Clustered flexible calibration plots for binary outcomes using random-effects modeling</a></strong>: Accurate model calibration is critical for binary outcome prediction, particularly when data are clustered or hierarchical. Standard calibration plots can fail to capture variability between clusters, leading to misleading assessments. We propose a method that combines flexible calibration curves with random-effects modeling, allowing for both overall and cluster-specific calibration assessment. This approach provides visual and quantitative evaluation of predictive performance across clusters, improving the identification of systematic miscalibration and supporting better model refinement in applied settings.
  - <strong><a href="https://doi.org/10.1017/S1748499523000283" target="_blank">On clustering levels of a hierarchical categorical risk factor</a></strong>: Handling nominal covariates with a large number of categories is challenging for both statistical and machine learning techniques. This problem is further exacerbated when the nominal variable has a hierarchical structure. We commonly rely on methods such as the random effects approach to incorporate these covariates in a predictive model. Nonetheless, in certain situations, even the random effects approach may encounter estimation problems. We propose the data-driven Partitioning Hierarchical Risk-factors Adaptive Top-down algorithm to reduce the hierarchically structured risk factor to its essence, by grouping similar categories at each level of the hierarchy. We work top-down and engineer several features to characterize the profile of the categories at a specific level in the hierarchy. In our workers’ compensation case study, we characterize the risk profile of an industry via its observed damage rates and claim frequencies. In addition, we use embeddings to encode the textual description of the economic activity of the insured company. These features are then used as input in a clustering algorithm to group similar categories. Our method substantially reduces the number of categories and results in a grouping that is generalizable to out-of-sample data. Moreover, we obtain a better differentiation between high-risk and low-risk companies. <br> <br>
 - <strong><a href="https://doi.org/10.1080/03461238.2022.2161413" target="_blank">Insurance pricing with hierarchically structured data an illustration with a workers’ compensation insurance portfolio</a></strong>: Actuaries use predictive modeling techniques to assess the loss cost on a contract as a function of observable risk characteristics. State-of-the-art statistical and machine learning methods are not well equipped to handle hierarchically structured risk factors with a large number of levels. In this paper, we demonstrate the data-driven construction of an insurance pricing model when hierarchically structured risk factors, contract-specific as well as externally collected risk factors are available. We examine the pricing of a workers' compensation insurance product with a hierarchical credibility model [Jewell, W. S. (1975). The use of collateral data in credibility theory: A hierarchical model. Laxenburg: IIASA], Ohlsson's combination of a generalized linear and a hierarchical credibility model [Ohlsson, E. (2008). Combining generalized linear models and credibility models in practice. Scandinavian Actuarial Journal 2008(4), 301–314] and mixed models. We compare the predictive performance of these models and evaluate the effect of the distributional assumption on the target variable by comparing linear mixed models with Tweedie generalized linear mixed models. For our case-study the Tweedie distribution is well suited to model and predict the loss cost on a contract. Moreover, incorporating contract-specific risk factors in the model improves the predictive performance and the risk differentiation in our workers' compensation insurance portfolio. <br> <br>
 - <strong><a href="https://doi.org/10.1002/ijgo.14097" target="_blank">Risk assessment for endometrial cancer in women with abnormal vaginal bleeding: Results from the prospective IETA-1 cohort study</a></strong>: This study investigates the association between personal history, anthropometric features, lifestyle characteristics, and endometrial malignancy in women with abnormal vaginal bleeding. In a prospective observational cohort of 2417 women, descriptive and multivariable logistic regression analyses were used to assess baseline risk factors such as age, body mass index (BMI), and nulliparity. Additional variables included intrauterine contraceptive device use, bleeding pattern, age at menopause, coexisting diabetes/hypertension, physical exercise, fat distribution, bra size, waist circumference, smoking/drinking habits, family history, use of hormonal/anticoagulant therapy, and sonographic endometrial thickness. The findings indicate that age, parity, and BMI are useful for assessing endometrial cancer risk in women with abnormal uterine bleeding, with sonographic endometrial thickness providing substantial improvement in risk assessment for postmenopausal women.
 
-I invite you to explore these works and reach out if you have any questions or if you are interested in potential collaborations. Thank you for your interest in my research!
+## Books and Educational Materials
+Over the years, I acquired a substantial amount of knowledge on programming and data analysis. Just as the professors, everyone at stackoverflow and countless others, I want to transfer this accumulated knowledge to help others. Hereto, I contributed to educational materials, including books on:
 
-# Books
-Over the years, I acquired a substantial amount of knowledge on programming and data analysis. Just as the professors, everyone at stackoverflow and countless others, I want to transfer this accumulated knowledge to help others. Hereto, I helped rewrite and adjust some of the books of professor dr [Katrien Antonio](https://katrienantonio.github.io/){:target="_blank"}:
-* [Introduction to R](./intro-R-book_RawFiles){:target="_blank"}
-* [Loss Models](./Loss-Models){:target="_blank"}
+- **[Introduction to R](../intro-R-book_RawFiles){:target="_blank"}** - Introduction to using the R software
+- **[Loss Models](../Loss-Models){:target="_blank"}** - Foundational concepts for actuarial science
 
-[back](./)
+For information about open source software and R packages, please visit the [Software & Tools](./software.html) page.

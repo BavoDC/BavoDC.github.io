@@ -8,7 +8,7 @@
 <html>
 
 <head>
-	<title>Home | Bavo D.C. Campo</title>
+	<title>Software & Tools | Bavo D.C. Campo</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -25,7 +25,7 @@
 <div id="wrapper">
 
 <!-- Header -->
-<header id="header" class="alt">
+<header id="header">
 	<a href="http://localhost:4000//" class="logo"><strong>Bavo D.C. Campo</strong> <span>Senior Actuarial and Risk Analyst</span></a>
 	<nav>
 		<a href="#menu">Menu</a>
@@ -85,79 +85,41 @@
 </nav>
 
 
-    <!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-
-            <header class="major">
-                <h1>Bavo D.C. Campo</h1>
-            </header>
-            <div class="content">
-                <p style="text-transform: uppercase;">Senior Actuarial and Risk Analyst with over a decade of experience in applied risk and predictive modelling across insurance, reinsurance, and biomedical settings</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Main -->
     <div id="main">
+        <div class="inner" style="max-width: 100%;">
+            <h2 id="software--tools">Software &amp; Tools</h2>
 
-        <!-- One -->
-        
-<section id="one" class="tiles">
-  
-  <article>
-    <span class="image">
-      <img src="assets/images/aboutmeGenerated.png" alt="About" />
-    </span>
-    <header class="major">
-      <h3><a href="/about/" class="link">About</a></h3>
-      <p>Personal Background</p>
-    </header>
-  </article>
-  
-  <article>
-    <span class="image">
-      <img src="assets/images/experienceGenerated.png" alt="Professional Experience" />
-    </span>
-    <header class="major">
-      <h3><a href="/professional-experience/" class="link">Professional Experience</a></h3>
-      <p>Career Overview and Experience</p>
-    </header>
-  </article>
-  
-  <article>
-    <span class="image">
-      <img src="assets/images/blogGenerated.png" alt="Blog" />
-    </span>
-    <header class="major">
-      <h3><a href="/Blog/" class="link">Blog</a></h3>
-      <p>Articles and Insights on Data Science and Actuarial Science</p>
-    </header>
-  </article>
-  
-  <article>
-    <span class="image">
-      <img src="assets/images/researchGenerated.png" alt="Publications & Research" />
-    </span>
-    <header class="major">
-      <h3><a href="/Publications/" class="link">Publications & Research</a></h3>
-      <p>Research Articles and Books</p>
-    </header>
-  </article>
-  
-  <article>
-    <span class="image">
-      <img src="assets/images/softwareGenerated.png" alt="Software & Tools" />
-    </span>
-    <header class="major">
-      <h3><a href="/software/" class="link">Software & Tools</a></h3>
-      <p>Open Source R Packages and Software</p>
-    </header>
-  </article>
-  
-</section>
+<p>You can find a selected set of my software projects on my <a href="https://github.com/BavoDC" target="_blank">Github page</a>. Of these, two are published on CRAN. If you have any questions, suggestions, or collaboration interests, please feel free to contact me! I look forward to hearing from you.</p>
 
+<h3 id="cran-packages">CRAN Packages</h3>
 
+<h3 id="calibrationcurves"><a href="https://cran.r-project.org/package=CalibrationCurves" target="_blank">CalibrationCurves</a></h3>
+<p>With the <code class="language-plaintext highlighter-rouge">CalibrationCurves</code> package, you can generate (generalized) calibration curves, which are essential for evaluating the calibration performance of predictive models. In addition, it also computes a comprehensive range of statistics to assess the predictive performance of your model. As such, this package provides the necessary tools to evaluate the performance of your predictive model.</p>
+
+<p>Detailed information on the package as well as a tutorial can be found on the <a href="https://bavodc.github.io/websiteCalibrationCurves/" target="_blank">package’s website</a>.</p>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>Generate calibration plots with base R and <a href="https://ggplot2.tidyverse.org/" target="_blank">ggplot</a></li>
+  <li>Comprehensive calibration and discrimination metrics</li>
+  <li>Support for binary, continuous and survival outcomes</li>
+</ul>
+
+<h3 id="actuare"><a href="https://cran.r-project.org/package=actuaRE" target="_blank">actuaRE</a></h3>
+<p>Using this package, you can fit a random effects model using either the hierarchical credibility model, a combination of the hierarchical credibility model with a generalized linear model or a Tweedie generalized linear mixed model.</p>
+
+<p>As the CalibrationCurves package, this package also has its own dedicated <a href="https://bavodc.github.io/websiteactuaRE/">website</a> with a tutorial and comprehensive overview of the package’s functionality.</p>
+
+<p><strong>Key Features:</strong></p>
+<ul>
+  <li>Fit a random effects model with nested random effect using three different estimation methods.</li>
+  <li>Obtain a comprehensive overview of the properties of the fitted model.</li>
+  <li>Verify whether a fitted model has the balance property (i.e., the sum of the predicted values equals the sum of actual observations).</li>
+  <li>Regain the balance property by adjusting the intercept term.</li>
+  <li>Analyze and visualize the random effect predictions.</li>
+</ul>
+
+        </div>
     </div>
 
     <!-- Footer -->

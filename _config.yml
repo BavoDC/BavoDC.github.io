@@ -1,10 +1,52 @@
-remote_theme: pages-themes/cayman@v0.2.0
+# Forty Jekyll Theme Configuration
+remote_theme: andrewbanchich/forty-jekyll-theme
+
+# Site settings
+title: Bavo D.C. Campo
+subtitle: Senior Actuarial and Risk Analyst
+email: bavo.campo@kuleuven.be
+description: >-
+  Senior Actuarial and Risk Analyst with over a decade of experience
+  in applied risk and predictive modelling across insurance, reinsurance, and biomedical settings
+
+# Author/Site owner
+author: Bavo D.C. Campo
+street_address:
+city:
+state:
+zip_code:
+country:
+phone:
+
+# Homepage tiles configuration
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# Social settings (key must match name of font awesome icon)
+# Icons are not shown if value is empty
+socials:
+  GitHub: https://github.com/BavoDC
+  LinkedIn: https://linkedin.com/in/bavodccampo
+  envelope: mailto:bavo.campo@kuleuven.be
+
+# Plugins
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
 - jekyll-feed
-title: [Bavo D.C. Campo]
+- jekyll-remote-theme
+- jekyll-seo-tag
+
+# Feed settings
 feed:
   path: feed.rbloggers.xml
-description: [Hi there! Welcome to my page.]
-show_downloads: true
-exclude: [Manual.txt, cv.md]
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+
+exclude:
+  - Manual.txt
+  - cv.md
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE.md
