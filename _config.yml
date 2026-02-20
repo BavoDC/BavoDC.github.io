@@ -50,3 +50,4 @@ exclude:
   - README.md
   - CONTRIBUTING.md
   - LICENSE.md
+  - MIGRATION_NOTES.md

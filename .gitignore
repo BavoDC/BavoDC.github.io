@@ -7,3 +7,5 @@ Gemfile
 Gemfile.lock
 .Rhistory
 cv.md
+MIGRATION_NOTES.md
+README.md

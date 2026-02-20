@@ -9,7 +9,7 @@ permalink: /Publications/
 ---
 ## Research Profile
 
-For a comprehensive overview of my research contributions, you can visit my profile on the [KU Leuven research database](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}. You can also find my work on [ResearchGate](https://www.researchgate.net/profile/Bavo-De-Cock){:target="_blank"}. If you are interested in my PhD thesis on hierarchical and network data in predictive modeling, you can download it [here](./Thesis/DoctoralThesis_BavoDCCampo.pdf).
+For a comprehensive overview of my research contributions, visit my profile on the [KU Leuven research database](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"}. You can also find my work on [ResearchGate](https://www.researchgate.net/profile/Bavo-De-Cock){:target="_blank"}. You can download my [PhD Thesis](./Thesis/DoctoralThesis_BavoDCCampo.pdf) which focuses on hierarchical and network data in predictive modeling.
 
 ## Selected Publications
 
