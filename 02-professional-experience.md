@@ -83,4 +83,4 @@ KU Leuven, 2012
 
 
 ---
-If you are interested in my publications and research contributions, please visit the [Publications & Research](../Publications.html) page. You can also download my [CV](../CurriculumVitaeCampoBavo.pdf) for more information about my professional experience and skills.
+If you are interested in my publications and research contributions, please visit the [Publications & Research](../Publications.html) page. You can also download my [CV](../CV/CurriculumVitaeCampoBavo.pdf) for more information about my professional experience and skills.
