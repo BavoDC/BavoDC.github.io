@@ -25,4 +25,4 @@ Over the years, I acquired a substantial amount of knowledge on programming and 
 - **[Introduction to R](../intro-R-book_RawFiles){:target="_blank"}** - Introduction to using the R software
 - **[Loss Models](../Loss-Models){:target="_blank"}** - Foundational concepts for actuarial science
 
-For information about open source software and R packages, please visit the [Software & Tools](./software.html) page.
+For information about open source software and R packages, please visit the [Software & Tools](../software.html) page.
