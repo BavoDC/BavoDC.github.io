@@ -24,4 +24,4 @@ Next to research, I love to do sports. Hiking is one of my favorite sports, sinc
 
 ---
 
-If you are interested in my professional experience, education, and skills, please visit my [professional experience page](../professional-experience/). For a detailed summary, you can also download my [CV](https://github.com/BavoDC/BavoDC.github.io/blob/main/CV/CurriculumVitaeBavoDCCampo.pdf). For my research contributions, visit my [KU Leuven research profile](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"} or [ResearchGate](https://www.researchgate.net/profile/Bavo-De-Cock){:target="_blank"}.
+If you are interested in my professional experience, education, and skills, please visit my [professional experience page](../professional-experience/). For a detailed summary, you can also download my [CV](../CV/CurriculumVitaeCampoBavo.pdf). For my research contributions, visit my [KU Leuven research profile](https://lirias.kuleuven.be/cv?Username=U0095171){:target="_blank"} or [ResearchGate](https://www.researchgate.net/profile/Bavo-De-Cock){:target="_blank"}.
