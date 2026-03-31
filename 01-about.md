@@ -10,7 +10,7 @@ permalink: /about/
 
 ## Who I Am
 
-Thank you for visiting my page! I am a senior actuarial and risk analyst who combines technical expertise with a psychology background, enabling structured decision-making and clear communication. I strongly believe that rigorous statistical thinking combined with modern data science techniques leads to better performing models and effective risk management. Some may know me as Bavo De Cock. In 2021 I began publishing under the surname Campo to honor my mother, who was also active in academia. She, together with my father, still serve as a big inspiration to me.
+Thank you for visiting my page! I am a senior quantitative risk specialist who combines technical expertise with a psychology background, enabling structured decision-making and clear communication. I strongly believe that rigorous statistical thinking combined with modern data science techniques leads to better performing models and effective risk management. Some may know me as Bavo De Cock. In 2021 I began publishing under the surname Campo to honor my mother, who was also active in academia. She, together with my father, still serve as a big inspiration to me.
 
 I originally started my career as a biostatistical researcher in the International Ovarian Tumor Analysis ([IOTA](https://www.iotagroup.org/){:target="_blank"}) group. I combined this full-time job with an MSc in Statistics, allowing me to directly apply statistical methods to real-world research challenges. Here I discovered my passion for research, programming and mathematics. I am forever grateful to the IOTA team for providing me with a solid foundation in research and statistical methodology.
 

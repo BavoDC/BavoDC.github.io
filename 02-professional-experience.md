@@ -9,21 +9,21 @@ permalink: /professional-experience/
 ---
 
 ## Professional Profile
-Senior actuarial and risk professional with **10+ years** of experience in applied risk and predictive **modeling** across insurance, reinsurance, and biomedical settings. I combine deep **technical expertise** with a **background** in **psychology**, enabling structured judgement, clear **communication**, and effective **collaboration** across technical and non-technical stakeholders. Experienced in translating complex risk insights into decision-relevant input in an **international** environment.
+Senior Quantitative Risk Specialist with **10+ years** of experience in applied risk and predictive **modeling** across insurance, reinsurance, and biomedical settings. I combine deep **technical expertise** with a **background** in **psychology**, enabling structured judgement, clear **communication**, and effective **collaboration** across technical and non-technical stakeholders. Experienced in translating complex risk insights into decision-relevant input in an **international** environment.
 
 ---
 
 ## Work Experience
 
-### Senior Actuarial and Risk Analyst
+### Senior Quantitative Risk Specialist
 **Ageas** | Valuation Non-Life Risk | Oct 2023 - Present
 
-I drive the development and implementation of the Solvency II internal model for multi-line external reinsurance operations. Additionally, I communicate with stakeholders across business and technical teams while collaborating to divide tasks and deliver robust technical solutions. Using stochastic modeling, I quantify portfolio risk and support reinsurance structuring and capital optimization.
+I drive the development and implementation of the internal model for external reinsurance operations. Additionally, I communicate with stakeholders across business and technical teams while collaborating to divide tasks and deliver robust technical solutions. Utilizing stochastic simulations to analyze loss distributions and provide decision-relevant insights for reinsurance strategy optimization.
 
 **Key Responsibilities:**
-- Drive the development and implementation of Solvency II internal models for multi-line external reinsurance, supporting capital and tail risk evaluation.
-- Provide capital modeling analyses supporting reinsurance structuring and capital allocation decisions.
-- Critically assess and improve modeling methodologies, develop and validate alternative modeling approaches.
+- Drive the development and implementation of internal models for external reinsurance.
+- Provide capital modeling analyses that inform reinsurance evaluation and strategy discussions.
+- Challenge methodologies and assumptions; develop and implement alternative approaches where needed.
 - Lead automation and tooling for internal model runs, testing, and validation.
 - Support evaluation and interpretation of model outcomes for stakeholders.
 
@@ -40,13 +40,13 @@ Transformed complex business challenges into strategic data science solutions th
 ### Doctoral Researcher
 **KU Leuven** | Insurance Research Group | Oct 2019 - Sep 2023
 
-Conducted research on advanced predictive modeling techniques in actuarial science, bridging academic research with industry challenges. Led the design, development, and deployment of pricing models, including models now used to determine premiums and support underwriting and portfolio steering, and developed innovative fraud detection systems using social network analysis and machine learning. Applied analytics to solve complex business problems, while managing stakeholder engagement and communicating technical findings to both academic and business audiences.
+Conducted research on advanced predictive modeling techniques in actuarial science, bridging academic research with industry challenges. Led the design, development, and deployment of pricing models, including models now used to determine premiums and guide underwriting decisions, and developed innovative fraud detection systems using social network analysis and machine learning. Applied analytics to solve complex business problems, while managing stakeholder engagement and communicating technical findings to both academic and business audiences.
 
 
 ### Statistical Researcher
 **KU Leuven** | IOTA Group, Department of Development and Regeneration | Feb 2015 - Sep 2018
 
-Contributed to leading international biomedical research, managing statistical analysis for 20+ clinical research projects. Took ownership of data governance and quality assurance while developing and maintaining statistical software tools. Conducted methodological research advancing the field, with expertise in clinical prediction models, performance evaluation, and novel statistical techniques.
+Contributed to a leading international biomedical research, managing statistical analysis for 20+ clinical research projects. Took ownership of data governance and quality assurance while developing and maintaining statistical software tools. Conducted methodological research advancing the field, with expertise in clinical prediction models, performance evaluation, and novel statistical techniques.
 
 ### Voluntary Research Associate
 **KU Leuven** | Department of Managerial Economics, Strategy and Innovation | Mar 2016 - Apr 2019
@@ -59,11 +59,13 @@ Provided statistical consulting to private sector clients on confidential busine
 
 - **Predictive Modeling:** Statistical and machine learning methods, model development and validation
 - **Actuarial Science:** Internal models, reinsurance pricing, stochastic simulations, risk assessment, pricing models
-- **Data Analysis:** Predictive modeling, statistical inference, regression analysis
+- **Data Analysis:** Statistical inference, hypothesis testing, regression analysis
 - **Programming:** R & Python (expert), SQL, ReMetrica, SAS
 - **Tools & Methods:** Credibility models, generalized linear (mixed) models, Extreme Value Theory, clustering algorithms
 - **Domain Knowledge:** Insurance, reinsurance, biomedical research, fraud detection
 - **Soft Skills:** Clear communication, stakeholder management, cross-functional collaboration, mentoring
+
+For a detailed overview of my publications and research contributions, please visit the [Publications & Research](./Publications.html) page. You can also download my [CV](./CV/CurriculumVitaeCampoBavoGeneral.pdf) for more information.
 
 ---
 
@@ -80,7 +82,3 @@ KU Leuven, 2014
 
 **BSc in Psychology**  
 KU Leuven, 2012
-
-
----
-If you are interested in my publications and research contributions, please visit the [Publications & Research](../Publications) page. You can also download my [CV](../CV/CurriculumVitaeBavoDCCampo.pdf) for more information about my professional experience and skills.
