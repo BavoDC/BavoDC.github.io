@@ -75,7 +75,7 @@ Provided statistical consulting to private sector clients on confidential busine
 - Proficient: English & Dutch
 - Limited: French, German
 
-For a detailed overview of my publications and research contributions, please visit the [Publications & Research](./Publications.html) page. You can also download my [CV](/CV/CurriculumVitaeBavoDCCampo.pdf) for more information.
+For a detailed overview of my publications and research contributions, please visit the [Publications & Research](/Publications.html) page. You can also download my [CV](/CV/CurriculumVitaeBavoDCCampo.pdf) for more information.
 
 ---
 
