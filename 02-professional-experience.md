@@ -9,7 +9,7 @@ permalink: /professional-experience/
 ---
 
 ## Professional Profile
-Senior Quantitative Risk Specialist with **10+ years** of experience in applied risk and predictive **modeling** across insurance, reinsurance, and biomedical settings. I combine deep **technical expertise** with a **background** in **psychology**, enabling structured judgement, clear **communication**, and effective **collaboration** across technical and non-technical stakeholders. Experienced in translating complex risk insights into decision-relevant input in an **international** environment.
+Senior actuarial professional with **10+ years** of experience across insurance and reinsurance, specializing in **pricing, capital modelling, and reinsurance analytics**. Combines strong **quantitative expertise** with a pragmatic, decision-oriented approach, enabling effective **communication** and alignment across technical and business stakeholders. Experienced in translating complex risk insights into **actionable input for pricing, underwriting, and strategic decisions** in an international environment.
 
 ---
 
@@ -18,14 +18,13 @@ Senior Quantitative Risk Specialist with **10+ years** of experience in applied 
 ### Senior Quantitative Risk Specialist
 **Ageas** | Valuation Non-Life Risk | Oct 2023 - Present
 
-I drive the development and implementation of the internal model for external reinsurance operations. Additionally, I communicate with stakeholders across business and technical teams while collaborating to divide tasks and deliver robust technical solutions. Utilizing stochastic simulations to analyze loss distributions and provide decision-relevant insights for reinsurance strategy optimization.
+I drive the development and implementation of Solvency II internal models for multi-line reinsurance, supporting capital, pricing, and portfolio steering decisions. Additionally, I communicate with stakeholders across business and technical teams while collaborating to divide tasks and deliver robust technical solutions. Utilizing stochastic simulations to analyze loss distributions and provide decision-relevant insights for reinsurance strategy optimization.
 
 **Key Responsibilities:**
-- Drive the development and implementation of internal models for external reinsurance.
-- Provide capital modeling analyses that inform reinsurance evaluation and strategy discussions.
-- Challenge methodologies and assumptions; develop and implement alternative approaches where needed.
-- Lead automation and tooling for internal model runs, testing, and validation.
-- Support evaluation and interpretation of model outcomes for stakeholders.
+- Drive development and implementation of Solvency II internal models for multi-line reinsurance, supporting capital, pricing, and portfolio steering decisions.
+- Provide capital-driven insights for reinsurance structuring, risk selection, and portfolio optimization.
+- Assess and enhance modelling methodologies, including development and validation of alternative approaches.
+- Lead automation and tooling for model execution, testing, and stakeholder reporting.
 
 ### Honorary Research Associate
 **Imperial College London** | Department of Metabolism, Digestion and Reproduction | July 2024 - Present
@@ -35,18 +34,18 @@ Lead statistical methodology and analysis for biomedical research projects. Over
 ### Senior Actuarial Data Scientist
 **Belgian Insurance Company** | Data Analytics | Oct 2019 - Sep 2023
 
-Transformed complex business challenges into strategic data science solutions through stakeholder management and cross-functional collaboration. Redesigned pricing models, now operational for premium calculation, enhancing accuracy and decision-making. Established best practices for code quality and model governance, provided guidance to pricing actuaries on model development, implementation, and analytical methodology.
+Developed and deployed a production pricing model supporting premium setting, underwriting decisions, and portfolio steering. Applied GLM/GLMM-based exposure and experience rating to improve loss cost modelling and risk segmentation. Translated analytical results into actionable insights for pricing and underwriting stakeholders. Owned model development, validation, and implementation, including reusable tooling.
 
 ### Doctoral Researcher
 **KU Leuven** | Insurance Research Group | Oct 2019 - Sep 2023
 
-Conducted research on advanced predictive modeling techniques in actuarial science, bridging academic research with industry challenges. Led the design, development, and deployment of pricing models, including models now used to determine premiums and guide underwriting decisions, and developed innovative fraud detection systems using social network analysis and machine learning. Applied analytics to solve complex business problems, while managing stakeholder engagement and communicating technical findings to both academic and business audiences.
+Developed advanced actuarial pricing frameworks combining credibility theory, GLMs, and mixed models, applied to real-world insurance portfolios (e.g., workers' compensation). Designed data-driven methods to incorporate and construct hierarchical risk factors into pricing frameworks. Built reusable workflows and tools for model development and validation (incl. CRAN package). Communicated results to technical and non-technical audiences.
 
 
 ### Statistical Researcher
 **KU Leuven** | IOTA Group, Department of Development and Regeneration | Feb 2015 - Sep 2018
 
-Contributed to a leading international biomedical research, managing statistical analysis for 20+ clinical research projects. Took ownership of data governance and quality assurance while developing and maintaining statistical software tools. Conducted methodological research advancing the field, with expertise in clinical prediction models, performance evaluation, and novel statistical techniques.
+Statistical modeling across 20+ clinical and methodological research projects. Led development of statistical tools and ensured robust data governance.
 
 ### Voluntary Research Associate
 **KU Leuven** | Department of Managerial Economics, Strategy and Innovation | Mar 2016 - Apr 2019
@@ -57,6 +56,31 @@ Provided statistical consulting to private sector clients on confidential busine
 
 ## Skills & Expertise
 
+### Risk & Modeling
+- Insurance and reinsurance pricing
+- Solvency II internal models
+- Economic capital and multi-line portfolio risk aggregation
+
+### Pricing & Underwriting
+- Exposure-based and experience-based pricing
+- Generalized Linear Models (GLM) and Mixed Models (GLMM)
+- Portfolio steering and pricing adequacy
+
+### Data & Automation
+- R, Python, ReMetrica & SAS
+- Model tooling
+- Automation and reproducible workflows
+
+### Decision Support
+- Model interpretation
+- Challenge and innovate methodologies
+- Stakeholder communication
+
+### Languages
+- Proficient: English & Dutch
+- Limited: French, German
+
+### Technical Skills
 - **Predictive Modeling:** Statistical and machine learning methods, model development and validation
 - **Actuarial Science:** Internal models, reinsurance pricing, stochastic simulations, risk assessment, pricing models
 - **Data Analysis:** Statistical inference, hypothesis testing, regression analysis
