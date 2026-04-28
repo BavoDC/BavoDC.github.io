@@ -56,29 +56,11 @@ Provided statistical consulting to private sector clients on confidential busine
 
 ## Skills & Expertise
 
-### Risk & Modeling
-- Insurance and reinsurance pricing
-- Solvency II internal models
-- Economic capital and multi-line portfolio risk aggregation
-
-### Pricing & Underwriting
-- Exposure-based and experience-based pricing
-- Generalized Linear Models (GLM) and Mixed Models (GLMM)
-- Portfolio steering and pricing adequacy
-
-### Data & Automation
-- R, Python, ReMetrica & SAS
-- Model tooling
-- Automation and reproducible workflows
-
-### Decision Support
-- Model interpretation
-- Challenge and innovate methodologies
-- Stakeholder communication
-
-### Languages
-- Proficient: English & Dutch
-- Limited: French, German
+### Core Competencies
+- **Risk & Modeling:** Insurance and reinsurance pricing, Solvency II internal models, Economic capital and multi-line portfolio risk aggregation
+- **Pricing & Underwriting:** Exposure-based and experience-based pricing, Generalized Linear Models (GLM) and Mixed Models (GLMM), Portfolio steering and pricing adequacy
+- **Data & Automation:** R, Python, ReMetrica & SAS, Model tooling, Automation and reproducible workflows
+- **Decision Support:** Model interpretation, Challenge and innovate methodologies, Stakeholder communication
 
 ### Technical Skills
 - **Predictive Modeling:** Statistical and machine learning methods, model development and validation
@@ -88,6 +70,10 @@ Provided statistical consulting to private sector clients on confidential busine
 - **Tools & Methods:** Credibility models, generalized linear (mixed) models, Extreme Value Theory, clustering algorithms
 - **Domain Knowledge:** Insurance, reinsurance, biomedical research, fraud detection
 - **Soft Skills:** Clear communication, stakeholder management, cross-functional collaboration, mentoring
+
+### Languages
+- Proficient: English & Dutch
+- Limited: French, German
 
 For a detailed overview of my publications and research contributions, please visit the [Publications & Research](./Publications.html) page. You can also download my [CV](./CV/CurriculumVitaeBavoDCCampo.pdf) for more information.
 
