@@ -89,7 +89,7 @@ Provided statistical consulting to private sector clients on confidential busine
 - **Domain Knowledge:** Insurance, reinsurance, biomedical research, fraud detection
 - **Soft Skills:** Clear communication, stakeholder management, cross-functional collaboration, mentoring
 
-For a detailed overview of my publications and research contributions, please visit the [Publications & Research](./Publications.html) page. You can also download my [CV](./CV/CurriculumVitaeCampoBavoGeneral.pdf) for more information.
+For a detailed overview of my publications and research contributions, please visit the [Publications & Research](./Publications.html) page. You can also download my [CV](./CV/CurriculumVitaeBavoDCCampo.pdf) for more information.
 
 ---
 
