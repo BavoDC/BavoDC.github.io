@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Bavo D.C. Campo</title>
-        <description>Senior Quantitative Risk Specialist with over a decade of experience in applied risk and predictive modelling across insurance, reinsurance, and biomedical settings</description>
+        <description>Senior Actuarial Professional with over 10+ years of experience across insurance and reinsurance, specializing in pricing, capital modelling, and reinsurance analytics</description>
         <link>http://localhost:4000/</link>
         <atom:link href="https://bavodc.github.io/feed.rbloggers.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Tue, 31 Mar 2026 14:46:05 +0200</pubDate>
-        <lastBuildDate>Tue, 31 Mar 2026 14:46:05 +0200</lastBuildDate>
-        <generator>Jekyll v4.2.2</generator>
+        <pubDate>Wed, 29 Apr 2026 13:04:50 +0200</pubDate>
+        <lastBuildDate>Wed, 29 Apr 2026 13:04:50 +0200</lastBuildDate>
+        <generator>Jekyll v4.4.1</generator>
         
             <item>
                 <title>Customizing  R using the  Rprofile file</title>
