@@ -24,7 +24,7 @@ Detailed information on the package as well as a tutorial can be found on the [p
 - Comprehensive calibration and discrimination metrics
 - Support for binary, continuous and survival outcomes
 
-### [actuaRE](https://cran.r-project.org/package=actuaRE){:target="_blank"} (v1.0.0)
+### [actuaRE](https://cran.r-project.org/package=actuaRE){:target="_blank"}
 The `actuaRE` package handles single-level and hierarchically structured risk factors using credibility and random effects models. It fits random effects models for multi-level/high-cardinality factors using credibility theory (Buhlmann-Straub for single-level, Jewell for hierarchical structures), GLM extensions, or Tweedie generalized linear mixed models. The package provides functions for model fitting, visualization, and prediction.
 
 As the CalibrationCurves package, this package also has its own dedicated [website](https://bavodc.github.io/websiteactuaRE/) with a tutorial and comprehensive overview of the package's functionality.
