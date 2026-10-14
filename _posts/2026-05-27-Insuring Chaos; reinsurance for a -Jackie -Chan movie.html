@@ -1715,9 +1715,10 @@ display: none;
 
 
 <h1 class="title toc-ignore">Insuring Chaos: Reinsurance for a Jackie Chan Movie</h1>
-<h3 class="subtitle">⚠️ Draft — under review</h3>
+<h4 class="subtitle">If you have any questions, remarks or suggestions, feel free to reach out to me at <a href="mailto:bavo.campo@kuleuven.be">bavo.campo@kuleuven.be</a></h4>
 <h4 class="author">Bavo D.C. Campo</h4>
 <h4 class="date">2026-05-28</h4>
+<br>
 
 </div>
 
@@ -2903,21 +2904,21 @@ for (s in test_structures) {
     })
     S_net_test = S - R_test
   }
-  
+
   VaR_995_test  = quantile(S_net_test, 0.995)
   TVaR_995_test = mean(S_net_test[S_net_test &gt;= VaR_995_test])  # For informational purposes
   K_test        = VaR_995_test - mean(S_net_test)  # Solvency Capital Requirement
   K_relief_test = K_gross - K_test
-  
+
   E_R_test             = mean(R_test)
   premium_test         = E_R_test * (1 + s$load)
   expected_profit_test = gross_premium - underwriting_expenses - premium_test - mean(S_net_test)
-  
+
   # EVA and RORAC
   reinsurance_cost_test = premium_test - E_R_test
   EVA_test              = (cost_of_capital * K_relief_test) - reinsurance_cost_test
   RORAC_test            = if (K_test &gt; 0) expected_profit_test / K_test else NA
-  
+
   results       = rbind(results, data.frame(
     Structure   = s$name,
     K_net_M     = round(K_test/1e6, 1),

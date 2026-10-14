@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.rbloggers.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-05-28T18:25:44+02:00</updated><id>http://localhost:4000/feed.rbloggers.xml</id><title type="html">Bavo D.C. Campo</title><subtitle>Senior Actuarial Professional with over 10+ years of experience across insurance and reinsurance, specializing in pricing, capital modelling, and reinsurance analytics</subtitle><author><name>Bavo D.C. Campo</name></author><entry><title type="html">Insuring chaos; reinsurance for a Jackie Chan movie</title><link href="http://localhost:4000/2026/05/27/Insuring-Chaos;-reinsurance-for-a-Jackie-Chan-movie.html" rel="alternate" type="text/html" title="Insuring chaos; reinsurance for a Jackie Chan movie" /><published>2026-05-27T00:00:00+02:00</published><updated>2026-05-27T00:00:00+02:00</updated><id>http://localhost:4000/2026/05/27/Insuring%20Chaos;%20reinsurance%20for%20a%20-Jackie%20-Chan%20movie</id><content type="html" xml:base="http://localhost:4000/2026/05/27/Insuring-Chaos;-reinsurance-for-a-Jackie-Chan-movie.html"><![CDATA[<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.rbloggers.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-10-14T20:26:50+02:00</updated><id>http://localhost:4000/feed.rbloggers.xml</id><title type="html">Bavo D.C. Campo</title><subtitle>Senior Actuarial Professional with over 10+ years of experience across insurance and reinsurance, specializing in pricing, capital modelling, and reinsurance analytics</subtitle><author><name>Bavo D.C. Campo</name></author><entry><title type="html">Insuring chaos; reinsurance for a Jackie Chan movie</title><link href="http://localhost:4000/2026/05/27/Insuring-Chaos;-reinsurance-for-a-Jackie-Chan-movie.html" rel="alternate" type="text/html" title="Insuring chaos; reinsurance for a Jackie Chan movie" /><published>2026-05-27T00:00:00+02:00</published><updated>2026-05-27T00:00:00+02:00</updated><id>http://localhost:4000/2026/05/27/Insuring%20Chaos;%20reinsurance%20for%20a%20-Jackie%20-Chan%20movie</id><content type="html" xml:base="http://localhost:4000/2026/05/27/Insuring-Chaos;-reinsurance-for-a-Jackie-Chan-movie.html"><![CDATA[<!DOCTYPE html>
 
 <html>
 
@@ -1715,9 +1715,10 @@ display: none;
 
 
 <h1 class="title toc-ignore">Insuring Chaos: Reinsurance for a Jackie Chan Movie</h1>
-<h3 class="subtitle">⚠️ Draft — under review</h3>
+<h4 class="subtitle">If you have any questions, remarks or suggestions, feel free to reach out to me at <a href="mailto:bavo.campo@kuleuven.be">bavo.campo@kuleuven.be</a></h4>
 <h4 class="author">Bavo D.C. Campo</h4>
 <h4 class="date">2026-05-28</h4>
+<br>
 
 </div>
 
@@ -2903,21 +2904,21 @@ for (s in test_structures) {
     })
     S_net_test = S - R_test
   }
-  
+
   VaR_995_test  = quantile(S_net_test, 0.995)
   TVaR_995_test = mean(S_net_test[S_net_test &gt;= VaR_995_test])  # For informational purposes
   K_test        = VaR_995_test - mean(S_net_test)  # Solvency Capital Requirement
   K_relief_test = K_gross - K_test
-  
+
   E_R_test             = mean(R_test)
   premium_test         = E_R_test * (1 + s$load)
   expected_profit_test = gross_premium - underwriting_expenses - premium_test - mean(S_net_test)
-  
+
   # EVA and RORAC
   reinsurance_cost_test = premium_test - E_R_test
   EVA_test              = (cost_of_capital * K_relief_test) - reinsurance_cost_test
   RORAC_test            = if (K_test &gt; 0) expected_profit_test / K_test else NA
-  
+
   results       = rbind(results, data.frame(
     Structure   = s$name,
     K_net_M     = round(K_test/1e6, 1),
